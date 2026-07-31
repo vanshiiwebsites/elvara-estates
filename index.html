@@ -1,0 +1,3592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Élvara Estates — Luxury villas, premium residences, penthouses and exclusive real estate experiences."
+  >
+
+  <meta
+    name="keywords"
+    content="luxury real estate, villas, penthouses, premium apartments, Élvara Estates"
+  >
+
+  <meta name="author" content="SVS Digital Studio">
+
+  <title>Élvara Estates | Luxury Real Estate</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- =========================================
+       PREMIUM WEBSITE LOADER
+  ========================================== -->
+  <div class="site-loader" id="siteLoader">
+
+    <div class="loader-content">
+
+      <div class="loader-logo-wrap">
+        <img
+          src="images/logo.png"
+          alt="Élvara Estates logo"
+          class="loader-logo"
+        >
+      </div>
+
+      <div class="loader-brand">
+        <span>ÉLVARA</span>
+        <small>ESTATES</small>
+      </div>
+
+      <div class="loader-line">
+        <span></span>
+      </div>
+
+      <p class="loader-text">
+        Curating exceptional spaces
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================================
+       PAGE TRANSITION OVERLAY
+  ========================================== -->
+  <div class="page-transition" id="pageTransition"></div>
+
+
+  <!-- =========================================
+       CUSTOM CURSOR
+       Desktop only through CSS
+  ========================================== -->
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+
+  <!-- =========================================
+       MAIN HEADER
+  ========================================== -->
+  <header class="main-header" id="mainHeader">
+
+    <div class="header-container">
+
+      <!-- Logo -->
+      <a
+        href="index.html"
+        class="brand-logo"
+        aria-label="Élvara Estates home"
+      >
+
+        <img
+          src="images/logo.png"
+          alt="Élvara Estates"
+        >
+
+        <div class="brand-name">
+          <span>ÉLVARA</span>
+          <small>ESTATES</small>
+        </div>
+
+      </a>
+
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
+
+        <ul class="nav-list">
+
+          <li>
+            <a href="index.html" class="nav-link active">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="properties.html" class="nav-link">
+              Properties
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html" class="nav-link">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="services.html" class="nav-link">
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a href="gallery.html" class="nav-link">
+              Gallery
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="nav-link">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+
+        <a
+          href="contact.html"
+          class="header-enquiry-btn magnetic-btn"
+        >
+          <span>Private Enquiry</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================================
+       MOBILE NAVIGATION
+  ========================================== -->
+  <aside
+    class="mobile-menu"
+    id="mobileMenu"
+    aria-hidden="true"
+  >
+
+    <div class="mobile-menu-background"></div>
+
+    <div class="mobile-menu-inner">
+
+      <div class="mobile-menu-top">
+
+        <a
+          href="index.html"
+          class="mobile-brand-logo"
+          aria-label="Élvara Estates home"
+        >
+
+          <img
+            src="images/logo.png"
+            alt="Élvara Estates"
+          >
+
+          <div class="mobile-brand-name">
+            <span>ÉLVARA</span>
+            <small>ESTATES</small>
+          </div>
+
+        </a>
+
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          type="button"
+          aria-label="Close navigation menu"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+      </div>
+
+
+      <nav
+        class="mobile-navigation"
+        aria-label="Mobile navigation"
+      >
+
+        <ul>
+
+          <li>
+            <span class="mobile-menu-number">01</span>
+            <a href="index.html" class="active">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <span class="mobile-menu-number">02</span>
+            <a href="properties.html">
+              Properties
+            </a>
+          </li>
+
+          <li>
+            <span class="mobile-menu-number">03</span>
+            <a href="about.html">
+              About
+            </a>
+          </li>
+
+          <li>
+            <span class="mobile-menu-number">04</span>
+            <a href="services.html">
+              Services
+            </a>
+          </li>
+
+          <li>
+            <span class="mobile-menu-number">05</span>
+            <a href="gallery.html">
+              Gallery
+            </a>
+          </li>
+
+          <li>
+            <span class="mobile-menu-number">06</span>
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <div class="mobile-menu-footer">
+
+        <p>
+          Exceptional spaces crafted for elevated living.
+        </p>
+
+        <a
+          href="contact.html"
+          class="mobile-enquiry-btn"
+        >
+          Book a Private Consultation
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <div class="mobile-social-links">
+
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="#" aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </aside>
+
+
+  <!-- Dark overlay behind mobile menu -->
+  <div
+    class="mobile-menu-overlay"
+    id="mobileMenuOverlay"
+  ></div>
+
+
+  <!-- =========================================
+       MAIN WEBSITE CONTENT START
+  ========================================== -->
+  <main>
+
+    <!-- Part 2: Hero section will begin here -->
+        <!-- =========================================
+         CINEMATIC HERO SECTION
+    ========================================== -->
+    <section class="hero-section" id="home">
+
+      <!-- Background Video -->
+      <div class="hero-media">
+
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/property-villa.jpg"
+        >
+          <source
+            src="videos/hero-luxury-villa.mp4"
+            type="video/mp4"
+          >
+
+          Your browser does not support the video tag.
+        </video>
+
+        <!-- Video overlays -->
+        <div class="hero-dark-overlay"></div>
+        <div class="hero-gradient-overlay"></div>
+        <div class="hero-texture-overlay"></div>
+
+      </div>
+
+
+      <!-- Decorative architectural lines -->
+      <div class="hero-architectural-lines" aria-hidden="true">
+
+        <span class="hero-line hero-line-one"></span>
+        <span class="hero-line hero-line-two"></span>
+        <span class="hero-line hero-line-three"></span>
+
+      </div>
+
+
+      <!-- Floating Hero Information -->
+      <div class="hero-property-label">
+
+        <span class="hero-property-dot"></span>
+
+        <div>
+          <small>Featured Residence</small>
+          <p>Aurelia Hillside Villa</p>
+        </div>
+
+      </div>
+
+
+      <!-- Main Hero Content -->
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          <div class="hero-eyebrow reveal-up">
+
+            <span class="eyebrow-line"></span>
+
+            <p>
+              Private residences · Exceptional architecture
+            </p>
+
+          </div>
+
+
+          <h1 class="hero-title">
+
+            <span class="hero-title-line reveal-up">
+              Exceptional Spaces.
+            </span>
+
+            <span class="hero-title-line hero-title-accent reveal-up">
+              Elevated Living.
+            </span>
+
+          </h1>
+
+
+          <p class="hero-description reveal-up">
+            Discover a curated collection of luxury villas, refined
+            residences and landmark properties created for those who
+            expect more from every space.
+          </p>
+
+
+          <div class="hero-actions reveal-up">
+
+            <a
+              href="properties.html"
+              class="primary-btn magnetic-btn"
+            >
+              <span>Explore Residences</span>
+
+              <span class="btn-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+
+
+            <a
+              href="contact.html"
+              class="secondary-btn magnetic-btn"
+            >
+              <span class="secondary-btn-icon">
+                <i class="fa-regular fa-calendar"></i>
+              </span>
+
+              <span>Book a Private Tour</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Hero Bottom Information -->
+      <div class="hero-bottom">
+
+        <div class="hero-bottom-left">
+
+          <div class="hero-location">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+              <small>Signature Location</small>
+              <span>Udaipur · Rajasthan</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-bottom-center">
+
+          <a
+            href="#featured-properties"
+            class="scroll-indicator"
+            aria-label="Scroll to featured properties"
+          >
+
+            <span class="scroll-mouse">
+              <span class="scroll-wheel"></span>
+            </span>
+
+            <span class="scroll-text">Scroll to discover</span>
+
+          </a>
+
+        </div>
+
+
+        <div class="hero-bottom-right">
+
+          <div class="hero-stat">
+
+            <strong>18</strong>
+
+            <span>
+              Exclusive
+              <br>
+              Residences
+            </span>
+
+          </div>
+
+
+          <div class="hero-stat">
+
+            <strong>12</strong>
+
+            <span>
+              Prime
+              <br>
+              Locations
+            </span>
+
+          </div>
+
+
+          <div class="hero-stat">
+
+            <strong>24/7</strong>
+
+            <span>
+              Private
+              <br>
+              Assistance
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Vertical Property Index -->
+      <div class="hero-property-index">
+
+        <span class="property-index-current">01</span>
+
+        <span class="property-index-divider"></span>
+
+        <span class="property-index-total">06</span>
+
+      </div>
+
+
+      <!-- Sound Control -->
+      <button
+        class="hero-sound-control"
+        id="heroSoundControl"
+        type="button"
+        aria-label="Enable hero video sound"
+        aria-pressed="false"
+      >
+
+        <span class="sound-bars" aria-hidden="true">
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+
+        <span class="sound-label">Sound off</span>
+
+      </button>
+
+
+      <!-- Floating enquiry control -->
+      <a
+        href="contact.html"
+        class="floating-enquiry"
+        aria-label="Make a private property enquiry"
+      >
+
+        <span class="floating-enquiry-text">
+          Private
+          <br>
+          Enquiry
+        </span>
+
+        <span class="floating-enquiry-icon">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </span>
+
+      </a>
+
+    </section>
+
+
+    <!-- =========================================
+         HERO INTRODUCTION STRIP
+    ========================================== -->
+    <section class="luxury-intro-strip">
+
+      <div class="luxury-intro-track">
+
+        <div class="luxury-intro-item">
+          <i class="fa-solid fa-gem"></i>
+          <span>Curated Luxury Residences</span>
+        </div>
+
+        <div class="luxury-intro-separator"></div>
+
+        <div class="luxury-intro-item">
+          <i class="fa-solid fa-building"></i>
+          <span>Landmark Architecture</span>
+        </div>
+
+        <div class="luxury-intro-separator"></div>
+
+        <div class="luxury-intro-item">
+          <i class="fa-solid fa-key"></i>
+          <span>Private Property Advisory</span>
+        </div>
+
+        <div class="luxury-intro-separator"></div>
+
+        <div class="luxury-intro-item">
+          <i class="fa-solid fa-location-crosshairs"></i>
+          <span>Prime Global Locations</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Part 3: Featured Properties will begin here -->
+        <!-- =========================================
+         FEATURED LUXURY PROPERTIES
+    ========================================== -->
+    <section
+      class="featured-properties section-padding"
+      id="featured-properties"
+    >
+
+      <div class="section-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading-row">
+
+          <div class="section-heading-content">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>Curated Collection</p>
+            </div>
+
+            <h2 class="section-title reveal-up">
+              Signature properties for
+              <span>extraordinary living.</span>
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Explore a limited collection of refined villas,
+              penthouses and residences selected for their
+              architecture, location and exceptional lifestyle.
+            </p>
+
+            <a
+              href="properties.html"
+              class="text-link"
+            >
+              <span>View All Properties</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Main Featured Property -->
+        <article class="featured-property-main reveal-up">
+
+          <a
+            href="property-details.html"
+            class="featured-property-media tilt-card"
+            aria-label="View Aurelia Hillside Villa details"
+          >
+
+            <img
+              src="images/property-villa.jpg"
+              alt="Aurelia Hillside luxury villa with infinity pool"
+              loading="lazy"
+            >
+
+            <div class="property-image-overlay"></div>
+
+            <div class="featured-property-badges">
+
+              <span class="property-badge property-badge-gold">
+                Exclusive
+              </span>
+
+              <span class="property-badge">
+                New Listing
+              </span>
+
+            </div>
+
+
+            <div class="featured-property-number">
+              01
+            </div>
+
+
+            <div class="featured-property-view">
+
+              <span>View Residence</span>
+
+              <span class="featured-property-view-icon">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <div class="featured-property-content">
+
+            <div class="featured-property-top">
+
+              <div>
+
+                <div class="property-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Udaipur, Rajasthan</span>
+                </div>
+
+                <h3>
+                  Aurelia Hillside Villa
+                </h3>
+
+              </div>
+
+
+              <div class="property-price">
+
+                <small>Starting from</small>
+
+                <strong>₹8.75 Cr</strong>
+
+              </div>
+
+            </div>
+
+
+            <p class="featured-property-description">
+              A private architectural retreat featuring panoramic
+              lake views, expansive glass walls, natural stone
+              finishes and a seamless indoor-outdoor living experience.
+            </p>
+
+
+            <div class="property-specifications">
+
+              <div class="property-specification">
+
+                <i class="fa-solid fa-bed"></i>
+
+                <div>
+                  <strong>5</strong>
+                  <span>Bedrooms</span>
+                </div>
+
+              </div>
+
+
+              <div class="property-specification">
+
+                <i class="fa-solid fa-bath"></i>
+
+                <div>
+                  <strong>6</strong>
+                  <span>Bathrooms</span>
+                </div>
+
+              </div>
+
+
+              <div class="property-specification">
+
+                <i class="fa-solid fa-ruler-combined"></i>
+
+                <div>
+                  <strong>8,400</strong>
+                  <span>Sq. Ft.</span>
+                </div>
+
+              </div>
+
+
+              <div class="property-specification">
+
+                <i class="fa-solid fa-water-ladder"></i>
+
+                <div>
+                  <strong>01</strong>
+                  <span>Infinity Pool</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="featured-property-footer">
+
+              <a
+                href="property-details.html"
+                class="primary-btn dark-primary-btn magnetic-btn"
+              >
+                <span>Explore Property</span>
+
+                <span class="btn-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+
+
+              <div class="property-reference">
+
+                <small>Property Reference</small>
+                <span>ELV–UV–001</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Property Cards Grid -->
+        <div class="property-grid">
+
+          <!-- Property Card 2 -->
+          <article class="property-card reveal-up">
+
+            <a
+              href="property-details.html"
+              class="property-card-media tilt-card"
+              aria-label="View Skyline Penthouse details"
+            >
+
+              <img
+                src="images/property-penthouse.jpg"
+                alt="Luxury penthouse overlooking a city skyline"
+                loading="lazy"
+              >
+
+              <div class="property-card-overlay"></div>
+
+              <div class="property-card-badges">
+
+                <span class="property-badge">
+                  Penthouse
+                </span>
+
+              </div>
+
+
+              <span class="property-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </a>
+
+
+            <div class="property-card-content">
+
+              <div class="property-card-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Mumbai, Maharashtra</span>
+              </div>
+
+
+              <div class="property-card-heading">
+
+                <h3>
+                  Skyline Grand Penthouse
+                </h3>
+
+                <strong>₹12.50 Cr</strong>
+
+              </div>
+
+
+              <div class="property-card-specs">
+
+                <span>
+                  <i class="fa-solid fa-bed"></i>
+                  4 Beds
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-bath"></i>
+                  5 Baths
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-ruler-combined"></i>
+                  5,200 Sq. Ft.
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- Property Card 3 -->
+          <article class="property-card reveal-up">
+
+            <a
+              href="property-details.html"
+              class="property-card-media tilt-card"
+              aria-label="View Elvara Residences details"
+            >
+
+              <img
+                src="images/property-apartment.jpg"
+                alt="Premium modern apartment tower"
+                loading="lazy"
+              >
+
+              <div class="property-card-overlay"></div>
+
+              <div class="property-card-badges">
+
+                <span class="property-badge">
+                  Residence
+                </span>
+
+                <span class="property-badge property-badge-gold">
+                  Featured
+                </span>
+
+              </div>
+
+
+              <span class="property-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </a>
+
+
+            <div class="property-card-content">
+
+              <div class="property-card-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Gurugram, Haryana</span>
+              </div>
+
+
+              <div class="property-card-heading">
+
+                <h3>
+                  Élvara Grand Residences
+                </h3>
+
+                <strong>₹4.90 Cr</strong>
+
+              </div>
+
+
+              <div class="property-card-specs">
+
+                <span>
+                  <i class="fa-solid fa-bed"></i>
+                  3 Beds
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-bath"></i>
+                  4 Baths
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-ruler-combined"></i>
+                  3,100 Sq. Ft.
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- Property Card 4 -->
+          <article class="property-card reveal-up">
+
+            <a
+              href="property-details.html"
+              class="property-card-media tilt-card"
+              aria-label="View Ocean Crest Beach House details"
+            >
+
+              <img
+                src="images/property-beach-house.jpg"
+                alt="Luxury beach house overlooking the ocean"
+                loading="lazy"
+              >
+
+              <div class="property-card-overlay"></div>
+
+              <div class="property-card-badges">
+
+                <span class="property-badge">
+                  Beach House
+                </span>
+
+              </div>
+
+
+              <span class="property-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </a>
+
+
+            <div class="property-card-content">
+
+              <div class="property-card-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Goa, India</span>
+              </div>
+
+
+              <div class="property-card-heading">
+
+                <h3>
+                  Ocean Crest Beach House
+                </h3>
+
+                <strong>₹9.80 Cr</strong>
+
+              </div>
+
+
+              <div class="property-card-specs">
+
+                <span>
+                  <i class="fa-solid fa-bed"></i>
+                  4 Beds
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-bath"></i>
+                  5 Baths
+                </span>
+
+                <span>
+                  <i class="fa-solid fa-ruler-combined"></i>
+                  6,600 Sq. Ft.
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- Property Categories -->
+        <div class="property-category-row">
+
+          <a
+            href="properties.html"
+            class="property-category-card reveal-up"
+          >
+
+            <div class="property-category-icon">
+              <i class="fa-solid fa-house-chimney-window"></i>
+            </div>
+
+            <div class="property-category-content">
+              <small>01</small>
+              <h3>Private Villas</h3>
+              <p>
+                Sculptural residences designed for privacy,
+                space and timeless living.
+              </p>
+            </div>
+
+            <span class="property-category-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+
+          <a
+            href="properties.html"
+            class="property-category-card reveal-up"
+          >
+
+            <div class="property-category-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+
+            <div class="property-category-content">
+              <small>02</small>
+              <h3>Urban Residences</h3>
+              <p>
+                Refined apartments and penthouses in landmark
+                city destinations.
+              </p>
+            </div>
+
+            <span class="property-category-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+
+          <a
+            href="properties.html"
+            class="property-category-card reveal-up"
+          >
+
+            <div class="property-category-icon">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+
+            <div class="property-category-content">
+              <small>03</small>
+              <h3>Luxury Hospitality</h3>
+              <p>
+                Boutique hotels and premium investment
+                properties with exceptional potential.
+              </p>
+            </div>
+
+            <span class="property-category-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PROPERTY MARQUEE
+    ========================================== -->
+    <section
+      class="property-marquee"
+      aria-label="Élvara Estates property categories"
+    >
+
+      <div class="property-marquee-track">
+
+        <span>Luxury Villas</span>
+        <i class="fa-solid fa-diamond"></i>
+
+        <span>Private Residences</span>
+        <i class="fa-solid fa-diamond"></i>
+
+        <span>Signature Penthouses</span>
+        <i class="fa-solid fa-diamond"></i>
+
+        <span>Coastal Retreats</span>
+        <i class="fa-solid fa-diamond"></i>
+
+        <span>Luxury Hospitality</span>
+        <i class="fa-solid fa-diamond"></i>
+
+        <span>Investment Properties</span>
+        <i class="fa-solid fa-diamond"></i>
+
+
+        <!-- Duplicate content for seamless animation -->
+        <span aria-hidden="true">Luxury Villas</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+        <span aria-hidden="true">Private Residences</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+        <span aria-hidden="true">Signature Penthouses</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+        <span aria-hidden="true">Coastal Retreats</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+        <span aria-hidden="true">Luxury Hospitality</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+        <span aria-hidden="true">Investment Properties</span>
+        <i class="fa-solid fa-diamond" aria-hidden="true"></i>
+
+      </div>
+
+    </section>
+
+
+    <!-- Part 4: About and Statistics section will begin here -->
+        <!-- =========================================
+         ABOUT ÉLVARA ESTATES
+    ========================================== -->
+    <section class="about-preview section-padding">
+
+      <div class="section-container">
+
+        <div class="about-preview-grid">
+
+          <!-- Left Visual -->
+          <div class="about-preview-visual reveal-up">
+
+            <div class="about-video-wrap">
+
+              <video
+                class="about-background-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/property-hotel.jpg"
+              >
+                <source
+                  src="videos/architecture-background.mp4"
+                  type="video/mp4"
+                >
+
+                Your browser does not support the video tag.
+              </video>
+
+              <div class="about-video-overlay"></div>
+
+
+              <div class="about-floating-label">
+
+                <span class="about-label-number">15+</span>
+
+                <div>
+                  <small>Years of</small>
+                  <strong>Design Excellence</strong>
+                </div>
+
+              </div>
+
+
+              <div class="about-visual-caption">
+
+                <span class="about-caption-line"></span>
+
+                <p>
+                  Architecture shaped by purpose,
+                  proportion and place.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Right Content -->
+          <div class="about-preview-content">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>About Élvara</p>
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+              We create properties that
+              <span>feel as exceptional as they look.</span>
+            </h2>
+
+
+            <p class="about-lead reveal-up">
+              Élvara Estates represents a refined approach to luxury
+              real estate—where architecture, lifestyle and long-term
+              value are considered as one complete experience.
+            </p>
+
+
+            <p class="about-description reveal-up">
+              From private villas and landmark residences to boutique
+              hospitality and investment properties, every project is
+              selected for its design integrity, location and ability
+              to elevate everyday living.
+            </p>
+
+
+            <div class="about-values">
+
+              <div class="about-value-item reveal-up">
+
+                <span class="about-value-number">
+                  01
+                </span>
+
+                <div>
+                  <h3>Purposeful Architecture</h3>
+
+                  <p>
+                    Spaces created with clarity, balance and a deep
+                    understanding of modern living.
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="about-value-item reveal-up">
+
+                <span class="about-value-number">
+                  02
+                </span>
+
+                <div>
+                  <h3>Exceptional Locations</h3>
+
+                  <p>
+                    Carefully selected destinations offering privacy,
+                    connectivity and enduring value.
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="about-value-item reveal-up">
+
+                <span class="about-value-number">
+                  03
+                </span>
+
+                <div>
+                  <h3>Private Client Experience</h3>
+
+                  <p>
+                    Discreet, personal and informed guidance at every
+                    stage of the property journey.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="about-actions reveal-up">
+
+              <a
+                href="about.html"
+                class="primary-btn dark-primary-btn magnetic-btn"
+              >
+                <span>Discover Our Story</span>
+
+                <span class="btn-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+
+
+              <a
+                href="services.html"
+                class="text-link"
+              >
+                <span>Explore Our Services</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ARCHITECTURAL PHILOSOPHY
+    ========================================== -->
+    <section class="architecture-philosophy section-padding">
+
+      <div class="architecture-philosophy-background"></div>
+
+      <div class="section-container">
+
+        <div class="architecture-philosophy-grid">
+
+          <div class="architecture-heading">
+
+            <div class="section-eyebrow light-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>Our Design Philosophy</p>
+            </div>
+
+
+            <h2 class="section-title light-title reveal-up">
+              Luxury is not decoration.
+              <span>It is how a space makes you feel.</span>
+            </h2>
+
+          </div>
+
+
+          <div class="architecture-description reveal-up">
+
+            <p>
+              We believe the most memorable properties are not defined
+              by excess, but by light, proportion, materiality and the
+              relationship between architecture and its surroundings.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="architecture-principles">
+
+          <!-- Principle 1 -->
+          <article class="architecture-principle reveal-up">
+
+            <div class="architecture-principle-top">
+
+              <span class="architecture-principle-number">
+                01
+              </span>
+
+              <i class="fa-regular fa-sun"></i>
+
+            </div>
+
+            <h3>Light</h3>
+
+            <p>
+              Natural light is treated as an architectural material,
+              shaping atmosphere throughout the day.
+            </p>
+
+          </article>
+
+
+          <!-- Principle 2 -->
+          <article class="architecture-principle reveal-up">
+
+            <div class="architecture-principle-top">
+
+              <span class="architecture-principle-number">
+                02
+              </span>
+
+              <i class="fa-solid fa-layer-group"></i>
+
+            </div>
+
+            <h3>Material</h3>
+
+            <p>
+              Stone, glass, wood and metal are selected for authenticity,
+              texture and timeless character.
+            </p>
+
+          </article>
+
+
+          <!-- Principle 3 -->
+          <article class="architecture-principle reveal-up">
+
+            <div class="architecture-principle-top">
+
+              <span class="architecture-principle-number">
+                03
+              </span>
+
+              <i class="fa-solid fa-vector-square"></i>
+
+            </div>
+
+            <h3>Proportion</h3>
+
+            <p>
+              Every volume, opening and transition is composed to feel
+              calm, balanced and naturally intuitive.
+            </p>
+
+          </article>
+
+
+          <!-- Principle 4 -->
+          <article class="architecture-principle reveal-up">
+
+            <div class="architecture-principle-top">
+
+              <span class="architecture-principle-number">
+                04
+              </span>
+
+              <i class="fa-solid fa-mountain-sun"></i>
+
+            </div>
+
+            <h3>Context</h3>
+
+            <p>
+              Architecture responds to landscape, climate and location
+              rather than competing with them.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         LUXURY STATISTICS
+    ========================================== -->
+    <section class="luxury-statistics section-padding">
+
+      <div class="section-container">
+
+        <div class="luxury-statistics-heading">
+
+          <div class="section-eyebrow reveal-up">
+            <span class="section-eyebrow-line"></span>
+            <p>Our Portfolio</p>
+          </div>
+
+
+          <h2 class="section-title reveal-up">
+            A growing legacy of
+            <span>distinctive places.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="luxury-statistics-grid">
+
+          <!-- Statistic 1 -->
+          <div class="luxury-stat-card reveal-up">
+
+            <div class="luxury-stat-number">
+
+              <span
+                class="counter"
+                data-target="42"
+              >
+                0
+              </span>
+
+              <sup>+</sup>
+
+            </div>
+
+            <h3>Signature Properties</h3>
+
+            <p>
+              A curated portfolio of villas, residences and
+              hospitality destinations.
+            </p>
+
+          </div>
+
+
+          <!-- Statistic 2 -->
+          <div class="luxury-stat-card reveal-up">
+
+            <div class="luxury-stat-number">
+
+              <span
+                class="counter"
+                data-target="12"
+              >
+                0
+              </span>
+
+            </div>
+
+            <h3>Prime Locations</h3>
+
+            <p>
+              Presence across select urban, coastal and
+              lifestyle destinations.
+            </p>
+
+          </div>
+
+
+          <!-- Statistic 3 -->
+          <div class="luxury-stat-card reveal-up">
+
+            <div class="luxury-stat-number">
+
+              <span
+                class="counter"
+                data-target="18"
+              >
+                0
+              </span>
+
+              <sup>+</sup>
+
+            </div>
+
+            <h3>Design Partnerships</h3>
+
+            <p>
+              Collaborations with architects, designers and
+              specialist consultants.
+            </p>
+
+          </div>
+
+
+          <!-- Statistic 4 -->
+          <div class="luxury-stat-card reveal-up">
+
+            <div class="luxury-stat-number">
+
+              <span
+                class="counter"
+                data-target="96"
+              >
+                0
+              </span>
+
+              <sup>%</sup>
+
+            </div>
+
+            <h3>Client Satisfaction</h3>
+
+            <p>
+              Built through responsive guidance and a highly
+              personalised service experience.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         EXPERIENCE STATEMENT
+    ========================================== -->
+    <section class="experience-statement">
+
+      <div class="experience-statement-media">
+
+        <img
+          src="images/gallery-lobby.jpg"
+          alt="Luxury residential lobby interior"
+          loading="lazy"
+        >
+
+        <div class="experience-statement-overlay"></div>
+
+      </div>
+
+
+      <div class="experience-statement-content">
+
+        <div class="experience-statement-inner">
+
+          <div class="section-eyebrow light-eyebrow reveal-up">
+            <span class="section-eyebrow-line"></span>
+            <p>The Élvara Experience</p>
+          </div>
+
+
+          <blockquote class="reveal-up">
+            “A remarkable property should not simply be seen.
+            It should be remembered.”
+          </blockquote>
+
+
+          <div class="experience-signature reveal-up">
+
+            <span class="experience-signature-line"></span>
+
+            <div>
+              <strong>Élvara Estates</strong>
+              <small>Private Real Estate Advisory</small>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Part 5: Services and lifestyle experience will begin here -->
+        <!-- =========================================
+         LUXURY SERVICES
+    ========================================== -->
+    <section class="services-preview section-padding">
+
+      <div class="section-container">
+
+        <div class="section-heading-row">
+
+          <div class="section-heading-content">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>Private Real Estate Services</p>
+            </div>
+
+            <h2 class="section-title reveal-up">
+              Thoughtful guidance for every
+              <span>property decision.</span>
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              From discovering a private residence to managing
+              a long-term investment, Élvara offers personalised
+              support designed around each client’s priorities.
+            </p>
+
+            <a
+              href="services.html"
+              class="text-link"
+            >
+              <span>View All Services</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="services-preview-grid">
+
+          <!-- Service 1 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                01
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+              </div>
+
+            </div>
+
+            <h3>Property Acquisition</h3>
+
+            <p>
+              Curated property discovery, private viewings,
+              negotiation support and complete purchase guidance.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+
+          <!-- Service 2 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                02
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+
+            </div>
+
+            <h3>Investment Advisory</h3>
+
+            <p>
+              Location insights, portfolio planning and strategic
+              guidance for premium real estate investments.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+
+          <!-- Service 3 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                03
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-house-circle-check"></i>
+              </div>
+
+            </div>
+
+            <h3>Property Sales</h3>
+
+            <p>
+              Premium positioning, cinematic presentation and
+              discreet access to qualified luxury property buyers.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+
+          <!-- Service 4 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                04
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-key"></i>
+              </div>
+
+            </div>
+
+            <h3>Luxury Rentals</h3>
+
+            <p>
+              Exclusive short-term and long-term residences
+              selected for comfort, privacy and exceptional location.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+
+          <!-- Service 5 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                05
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+
+            </div>
+
+            <h3>Property Management</h3>
+
+            <p>
+              Reliable oversight, maintenance coordination and
+              tailored support for premium residential assets.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+
+          <!-- Service 6 -->
+          <article class="service-card reveal-up">
+
+            <div class="service-card-top">
+
+              <span class="service-number">
+                06
+              </span>
+
+              <div class="service-icon">
+                <i class="fa-solid fa-couch"></i>
+              </div>
+
+            </div>
+
+            <h3>Interior Consultation</h3>
+
+            <p>
+              Design direction, furnishing support and refined
+              spatial planning for luxury residences.
+            </p>
+
+            <a
+              href="services.html"
+              class="service-link"
+            >
+              <span>Discover Service</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         LIFESTYLE EXPERIENCE
+    ========================================== -->
+    <section class="lifestyle-experience section-padding">
+
+      <div class="section-container">
+
+        <div class="lifestyle-experience-grid">
+
+          <!-- Content -->
+          <div class="lifestyle-content">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>More Than a Property</p>
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+              A lifestyle shaped around
+              <span>space, privacy and experience.</span>
+            </h2>
+
+
+            <p class="lifestyle-description reveal-up">
+              Our residences are selected not only for their
+              architecture, but for the quality of life they create—
+              from peaceful mornings and generous interiors to
+              effortless entertaining and private outdoor spaces.
+            </p>
+
+
+            <div class="lifestyle-features">
+
+              <div class="lifestyle-feature reveal-up">
+
+                <span class="lifestyle-feature-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </span>
+
+                <div>
+                  <h3>Privacy by Design</h3>
+                  <p>
+                    Thoughtful layouts, controlled access and
+                    discreet living environments.
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="lifestyle-feature reveal-up">
+
+                <span class="lifestyle-feature-icon">
+                  <i class="fa-solid fa-leaf"></i>
+                </span>
+
+                <div>
+                  <h3>Nature-Led Living</h3>
+                  <p>
+                    Landscaped spaces, natural materials and
+                    a stronger connection with the outdoors.
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="lifestyle-feature reveal-up">
+
+                <span class="lifestyle-feature-icon">
+                  <i class="fa-solid fa-spa"></i>
+                </span>
+
+                <div>
+                  <h3>Wellness-Focused Spaces</h3>
+                  <p>
+                    Calm interiors, private pools, wellness
+                    areas and restorative environments.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <a
+              href="gallery.html"
+              class="primary-btn dark-primary-btn magnetic-btn reveal-up"
+            >
+              <span>Explore the Experience</span>
+
+              <span class="btn-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+
+          </div>
+
+
+          <!-- Visual Composition -->
+          <div class="lifestyle-visual reveal-up">
+
+            <div class="lifestyle-main-image tilt-card">
+
+              <img
+                src="images/interior-living-room.jpg"
+                alt="Luxury living room with panoramic windows"
+                loading="lazy"
+              >
+
+              <div class="lifestyle-image-overlay"></div>
+
+
+              <div class="lifestyle-image-label">
+
+                <small>Interior Experience</small>
+                <strong>Designed for meaningful living</strong>
+
+              </div>
+
+            </div>
+
+
+            <div class="lifestyle-secondary-image">
+
+              <img
+                src="images/gallery-pool.jpg"
+                alt="Infinity pool at a luxury residence"
+                loading="lazy"
+              >
+
+            </div>
+
+
+            <div class="lifestyle-floating-card">
+
+              <span class="lifestyle-floating-icon">
+                <i class="fa-solid fa-star"></i>
+              </span>
+
+              <div>
+                <strong>Private Living</strong>
+                <small>Curated for comfort and distinction</small>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CINEMATIC PROPERTY VIDEO SHOWCASE
+    ========================================== -->
+    <section class="property-video-showcase">
+
+      <div class="property-video-showcase-media">
+
+        <video
+          class="property-showcase-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/property-penthouse.jpg"
+        >
+          <source
+            src="videos/penthouse-tour.mp4"
+            type="video/mp4"
+          >
+
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="property-video-overlay"></div>
+        <div class="property-video-gradient"></div>
+
+      </div>
+
+
+      <div class="property-video-showcase-content">
+
+        <div class="property-video-showcase-inner">
+
+          <div class="section-eyebrow light-eyebrow reveal-up">
+            <span class="section-eyebrow-line"></span>
+            <p>Featured Experience</p>
+          </div>
+
+
+          <h2 class="section-title light-title reveal-up">
+            Step inside a residence
+            <span>above the city.</span>
+          </h2>
+
+
+          <p class="reveal-up">
+            Experience panoramic views, refined interiors and
+            expansive living spaces inside our signature
+            Skyline Grand Penthouse.
+          </p>
+
+
+          <div class="property-video-actions reveal-up">
+
+            <a
+              href="property-details.html"
+              class="primary-btn magnetic-btn"
+            >
+              <span>View Penthouse</span>
+
+              <span class="btn-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+
+
+            <button
+              class="video-play-button"
+              id="showcasePlayButton"
+              type="button"
+              aria-label="Pause property showcase video"
+              aria-pressed="false"
+            >
+
+              <span class="video-play-icon">
+                <i class="fa-solid fa-pause"></i>
+              </span>
+
+              <span class="video-play-label">
+                Pause Film
+              </span>
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="property-video-details">
+
+        <div class="property-video-detail">
+
+          <small>Location</small>
+          <strong>Mumbai, India</strong>
+
+        </div>
+
+
+        <div class="property-video-detail">
+
+          <small>Residence</small>
+          <strong>Skyline Penthouse</strong>
+
+        </div>
+
+
+        <div class="property-video-detail">
+
+          <small>Interior Area</small>
+          <strong>5,200 Sq. Ft.</strong>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PROPERTY EXPERIENCE CARDS
+    ========================================== -->
+    <section class="property-experience-cards section-padding">
+
+      <div class="section-container">
+
+        <div class="property-experience-heading">
+
+          <div class="section-eyebrow reveal-up">
+            <span class="section-eyebrow-line"></span>
+            <p>Distinctive Experiences</p>
+          </div>
+
+
+          <h2 class="section-title reveal-up">
+            Every destination offers
+            <span>a different way to live.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="property-experience-grid">
+
+          <!-- Experience 1 -->
+          <a
+            href="properties.html"
+            class="experience-card reveal-up"
+          >
+
+            <img
+              src="images/property-beach-house.jpg"
+              alt="Luxury coastal beach house"
+              loading="lazy"
+            >
+
+            <div class="experience-card-overlay"></div>
+
+
+            <div class="experience-card-content">
+
+              <span class="experience-card-number">
+                01
+              </span>
+
+              <div>
+                <small>Coastal Living</small>
+                <h3>Private Ocean Retreats</h3>
+              </div>
+
+              <span class="experience-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- Experience 2 -->
+          <a
+            href="properties.html"
+            class="experience-card reveal-up"
+          >
+
+            <img
+              src="images/property-hotel.jpg"
+              alt="Premium boutique luxury hotel"
+              loading="lazy"
+            >
+
+            <div class="experience-card-overlay"></div>
+
+
+            <div class="experience-card-content">
+
+              <span class="experience-card-number">
+                02
+              </span>
+
+              <div>
+                <small>Hospitality</small>
+                <h3>Boutique Hotel Investments</h3>
+              </div>
+
+              <span class="experience-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- Experience 3 -->
+          <a
+            href="properties.html"
+            class="experience-card reveal-up"
+          >
+
+            <img
+              src="images/property-commercial.jpg"
+              alt="Premium commercial office building"
+              loading="lazy"
+            >
+
+            <div class="experience-card-overlay"></div>
+
+
+            <div class="experience-card-content">
+
+              <span class="experience-card-number">
+                03
+              </span>
+
+              <div>
+                <small>Commercial</small>
+                <h3>Landmark Business Spaces</h3>
+              </div>
+
+              <span class="experience-card-arrow">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Part 6: Gallery preview, testimonials and private enquiry CTA will begin here -->
+        <!-- =========================================
+         GALLERY PREVIEW
+    ========================================== -->
+    <section class="gallery-preview section-padding">
+
+      <div class="section-container">
+
+        <div class="section-heading-row">
+
+          <div class="section-heading-content">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>Inside Élvara</p>
+            </div>
+
+            <h2 class="section-title reveal-up">
+              Spaces designed to be
+              <span>experienced from every angle.</span>
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Explore refined interiors, architectural details,
+              private amenities and destination-led living across
+              the Élvara portfolio.
+            </p>
+
+            <a
+              href="gallery.html"
+              class="text-link"
+            >
+              <span>View Full Gallery</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-preview-grid">
+
+          <!-- Gallery Item 1 -->
+          <a
+            href="gallery.html"
+            class="gallery-preview-item gallery-preview-large reveal-up"
+          >
+
+            <img
+              src="images/interior-bedroom.jpg"
+              alt="Elegant luxury master bedroom"
+              loading="lazy"
+            >
+
+            <div class="gallery-preview-overlay"></div>
+
+
+            <div class="gallery-preview-content">
+
+              <span class="gallery-preview-category">
+                Private Interior
+              </span>
+
+              <h3>Restful Master Suites</h3>
+
+              <span class="gallery-preview-icon">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- Gallery Item 2 -->
+          <a
+            href="gallery.html"
+            class="gallery-preview-item reveal-up"
+          >
+
+            <img
+              src="images/interior-kitchen.jpg"
+              alt="Premium modern kitchen interior"
+              loading="lazy"
+            >
+
+            <div class="gallery-preview-overlay"></div>
+
+
+            <div class="gallery-preview-content">
+
+              <span class="gallery-preview-category">
+                Culinary Space
+              </span>
+
+              <h3>Refined Modern Kitchens</h3>
+
+              <span class="gallery-preview-icon">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- Gallery Item 3 -->
+          <a
+            href="gallery.html"
+            class="gallery-preview-item reveal-up"
+          >
+
+            <img
+              src="images/interior-bathroom.jpg"
+              alt="Luxury spa-inspired bathroom"
+              loading="lazy"
+            >
+
+            <div class="gallery-preview-overlay"></div>
+
+
+            <div class="gallery-preview-content">
+
+              <span class="gallery-preview-category">
+                Wellness
+              </span>
+
+              <h3>Spa-Inspired Bathrooms</h3>
+
+              <span class="gallery-preview-icon">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- Gallery Item 4 -->
+          <a
+            href="gallery.html"
+            class="gallery-preview-item gallery-preview-wide reveal-up"
+          >
+
+            <img
+              src="images/gallery-balcony.jpg"
+              alt="Spacious balcony overlooking the skyline"
+              loading="lazy"
+            >
+
+            <div class="gallery-preview-overlay"></div>
+
+
+            <div class="gallery-preview-content">
+
+              <span class="gallery-preview-category">
+                Outdoor Living
+              </span>
+
+              <h3>Elevated Skyline Terraces</h3>
+
+              <span class="gallery-preview-icon">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         LUXURY HOTEL VIDEO EXPERIENCE
+    ========================================== -->
+    <section class="hotel-experience">
+
+      <div class="hotel-experience-media">
+
+        <video
+          class="hotel-experience-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/property-hotel.jpg"
+        >
+          <source
+            src="videos/luxury-hotel.mp4"
+            type="video/mp4"
+          >
+
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="hotel-experience-overlay"></div>
+        <div class="hotel-experience-gradient"></div>
+
+      </div>
+
+
+      <div class="hotel-experience-content">
+
+        <div class="section-container">
+
+          <div class="hotel-experience-inner">
+
+            <div class="hotel-experience-label reveal-up">
+
+              <span class="hotel-experience-label-line"></span>
+
+              <p>Élvara Hospitality Collection</p>
+
+            </div>
+
+
+            <h2 class="reveal-up">
+              Where architecture,
+              hospitality and investment
+              come together.
+            </h2>
+
+
+            <p class="reveal-up">
+              Discover boutique hotel opportunities selected for
+              their destination appeal, design character and
+              long-term commercial potential.
+            </p>
+
+
+            <div class="hotel-experience-actions reveal-up">
+
+              <a
+                href="properties.html"
+                class="primary-btn magnetic-btn"
+              >
+                <span>Explore Hospitality</span>
+
+                <span class="btn-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+
+
+              <button
+                class="hotel-video-control"
+                id="hotelVideoControl"
+                type="button"
+                aria-label="Pause hotel video"
+                aria-pressed="false"
+              >
+
+                <span class="hotel-video-control-icon">
+                  <i class="fa-solid fa-pause"></i>
+                </span>
+
+                <span class="hotel-video-control-text">
+                  Pause Film
+                </span>
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hotel-experience-index">
+
+        <span>Hospitality</span>
+        <strong>04 / 06</strong>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CLIENT TESTIMONIALS
+    ========================================== -->
+    <section class="testimonials-section section-padding">
+
+      <div class="section-container">
+
+        <div class="testimonials-layout">
+
+          <!-- Left Heading -->
+          <div class="testimonials-heading">
+
+            <div class="section-eyebrow reveal-up">
+              <span class="section-eyebrow-line"></span>
+              <p>Client Experience</p>
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+              Trusted guidance.
+              <span>Remarkable outcomes.</span>
+            </h2>
+
+
+            <p class="testimonials-intro reveal-up">
+              Every property journey is personal. Our role is to make
+              it informed, discreet and effortless from the first
+              conversation to the final handover.
+            </p>
+
+
+            <div class="testimonial-controls reveal-up">
+
+              <button
+                class="testimonial-control testimonial-prev"
+                id="testimonialPrev"
+                type="button"
+                aria-label="View previous testimonial"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+
+
+              <button
+                class="testimonial-control testimonial-next"
+                id="testimonialNext"
+                type="button"
+                aria-label="View next testimonial"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <!-- Testimonial Slider -->
+          <div
+            class="testimonial-slider reveal-up"
+            id="testimonialSlider"
+          >
+
+            <!-- Testimonial 1 -->
+            <article class="testimonial-slide active">
+
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+
+
+              <blockquote>
+                Élvara understood that we were not simply looking
+                for a larger home. We wanted privacy, natural light
+                and a place that felt calm. Every recommendation was
+                thoughtful and relevant.
+              </blockquote>
+
+
+              <div class="testimonial-client">
+
+                <div class="testimonial-client-initials">
+                  AM
+                </div>
+
+
+                <div>
+                  <strong>Aarav Mehta</strong>
+                  <span>Private Villa Client · Udaipur</span>
+                </div>
+
+              </div>
+
+
+              <div class="testimonial-rating" aria-label="5 out of 5 stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+
+            </article>
+
+
+            <!-- Testimonial 2 -->
+            <article class="testimonial-slide">
+
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+
+
+              <blockquote>
+                The process was clear, professional and discreet.
+                We received detailed advice on location, valuation
+                and long-term potential before selecting our
+                penthouse investment.
+              </blockquote>
+
+
+              <div class="testimonial-client">
+
+                <div class="testimonial-client-initials">
+                  SK
+                </div>
+
+
+                <div>
+                  <strong>Simran Khanna</strong>
+                  <span>Investment Client · Mumbai</span>
+                </div>
+
+              </div>
+
+
+              <div class="testimonial-rating" aria-label="5 out of 5 stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+
+            </article>
+
+
+            <!-- Testimonial 3 -->
+            <article class="testimonial-slide">
+
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+
+
+              <blockquote>
+                From the first private viewing to the final
+                documentation, the experience felt organised and
+                genuinely personal. Élvara made a complex decision
+                feel remarkably simple.
+              </blockquote>
+
+
+              <div class="testimonial-client">
+
+                <div class="testimonial-client-initials">
+                  RV
+                </div>
+
+
+                <div>
+                  <strong>Rohan Verma</strong>
+                  <span>Residence Client · Gurugram</span>
+                </div>
+
+              </div>
+
+
+              <div class="testimonial-rating" aria-label="5 out of 5 stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+
+            </article>
+
+
+            <div class="testimonial-progress">
+
+              <span class="testimonial-progress-current">
+                01
+              </span>
+
+              <div class="testimonial-progress-line">
+                <span id="testimonialProgressBar"></span>
+              </div>
+
+              <span class="testimonial-progress-total">
+                03
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PRIVATE ENQUIRY CTA
+    ========================================== -->
+    <section class="private-enquiry-cta">
+
+      <div class="private-enquiry-background">
+
+        <img
+          src="images/property-villa.jpg"
+          alt="Luxury villa at sunset"
+          loading="lazy"
+        >
+
+        <div class="private-enquiry-overlay"></div>
+        <div class="private-enquiry-gradient"></div>
+
+      </div>
+
+
+      <div class="section-container">
+
+        <div class="private-enquiry-content">
+
+          <div class="section-eyebrow light-eyebrow reveal-up">
+            <span class="section-eyebrow-line"></span>
+            <p>Begin Your Property Journey</p>
+          </div>
+
+
+          <h2 class="reveal-up">
+            Your next exceptional
+            property begins with a
+            private conversation.
+          </h2>
+
+
+          <p class="reveal-up">
+            Share your requirements with our advisory team and
+            receive a carefully selected collection of residences
+            suited to your lifestyle, location and investment goals.
+          </p>
+
+
+          <div class="private-enquiry-actions reveal-up">
+
+            <a
+              href="contact.html"
+              class="primary-btn magnetic-btn"
+            >
+              <span>Schedule a Consultation</span>
+
+              <span class="btn-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+
+
+            <a
+              href="properties.html"
+              class="secondary-btn light-secondary-btn magnetic-btn"
+            >
+              <span>Browse Properties</span>
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+          </div>
+
+
+          <div class="private-enquiry-details reveal-up">
+
+            <div class="private-enquiry-detail">
+
+              <i class="fa-solid fa-phone"></i>
+
+              <div>
+                <small>Private Advisory</small>
+                <span>+91 98765 43210</span>
+              </div>
+
+            </div>
+
+
+            <div class="private-enquiry-detail">
+
+              <i class="fa-regular fa-envelope"></i>
+
+              <div>
+                <small>Email</small>
+                <span>concierge@elvaraestates.com</span>
+              </div>
+
+            </div>
+
+
+            <div class="private-enquiry-detail">
+
+              <i class="fa-regular fa-clock"></i>
+
+              <div>
+                <small>Availability</small>
+                <span>Monday–Saturday · 9:00–18:00</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Part 7: Newsletter, footer and floating controls will begin here -->
+        <!-- =========================================
+         NEWSLETTER SECTION
+    ========================================== -->
+    <section class="newsletter-section">
+
+      <div class="section-container">
+
+        <div class="newsletter-wrapper reveal-up">
+
+          <div class="newsletter-content">
+
+            <div class="section-eyebrow">
+              <span class="section-eyebrow-line"></span>
+              <p>Élvara Private List</p>
+            </div>
+
+
+            <h2>
+              Receive exclusive property
+              opportunities and private updates.
+            </h2>
+
+
+            <p>
+              Join our private mailing list for selected residences,
+              market insights and early access to new luxury listings.
+            </p>
+
+          </div>
+
+
+          <form
+            class="newsletter-form"
+            id="newsletterForm"
+            novalidate
+          >
+
+            <div class="newsletter-input-group">
+
+              <label
+                for="newsletterEmail"
+                class="visually-hidden"
+              >
+                Email address
+              </label>
+
+              <i class="fa-regular fa-envelope"></i>
+
+              <input
+                type="email"
+                id="newsletterEmail"
+                name="email"
+                placeholder="Enter your email address"
+                autocomplete="email"
+                required
+              >
+
+              <button
+                type="submit"
+                class="newsletter-submit magnetic-btn"
+                aria-label="Subscribe to Élvara newsletter"
+              >
+                <span>Subscribe</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+            </div>
+
+
+            <p
+              class="newsletter-message"
+              id="newsletterMessage"
+              aria-live="polite"
+            ></p>
+
+
+            <label class="newsletter-consent">
+
+              <input
+                type="checkbox"
+                id="newsletterConsent"
+                required
+              >
+
+              <span class="newsletter-checkbox"></span>
+
+              <span>
+                I agree to receive selected property updates and
+                understand that I can unsubscribe at any time.
+              </span>
+
+            </label>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================
+       PREMIUM FOOTER
+  ========================================== -->
+  <footer class="main-footer">
+
+    <div class="footer-background">
+
+      <div class="footer-background-line footer-line-one"></div>
+      <div class="footer-background-line footer-line-two"></div>
+      <div class="footer-background-circle"></div>
+
+    </div>
+
+
+    <div class="section-container">
+
+      <!-- Footer Top -->
+      <div class="footer-top">
+
+        <div class="footer-brand-column">
+
+          <a
+            href="index.html"
+            class="footer-logo"
+            aria-label="Élvara Estates home"
+          >
+
+            <img
+              src="images/logo.png"
+              alt="Élvara Estates logo"
+              loading="lazy"
+            >
+
+            <div class="footer-brand-name">
+              <span>ÉLVARA</span>
+              <small>ESTATES</small>
+            </div>
+
+          </a>
+
+
+          <p class="footer-brand-description">
+            A private real-estate advisory presenting exceptional
+            villas, residences, penthouses and investment properties
+            across distinctive destinations.
+          </p>
+
+
+          <div class="footer-social-links">
+
+            <a
+              href="#"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="YouTube"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Footer Navigation -->
+        <div class="footer-column">
+
+          <h3>Explore</h3>
+
+          <ul>
+
+            <li>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="properties.html">
+                Properties
+              </a>
+            </li>
+
+            <li>
+              <a href="property-details.html">
+                Featured Residence
+              </a>
+            </li>
+
+            <li>
+              <a href="gallery.html">
+                Gallery
+              </a>
+            </li>
+
+            <li>
+              <a href="contact.html">
+                Private Enquiry
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Footer Company -->
+        <div class="footer-column">
+
+          <h3>Company</h3>
+
+          <ul>
+
+            <li>
+              <a href="about.html">
+                About Élvara
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html">
+                Our Services
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html">
+                Investment Advisory
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html">
+                Property Management
+              </a>
+            </li>
+
+            <li>
+              <a href="contact.html">
+                Contact
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Footer Contact -->
+        <div class="footer-contact-column">
+
+          <h3>Private Advisory</h3>
+
+
+          <div class="footer-contact-item">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+              <small>Office</small>
+              <span>
+                Udaipur, Rajasthan
+                <br>
+                India
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="footer-contact-item">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <div>
+              <small>Telephone</small>
+
+              <a href="tel:+919876543210">
+                +91 98765 43210
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="footer-contact-item">
+
+            <i class="fa-regular fa-envelope"></i>
+
+            <div>
+              <small>Email</small>
+
+              <a href="mailto:concierge@elvaraestates.com">
+                concierge@elvaraestates.com
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Footer Consultation Bar -->
+      <div class="footer-consultation-bar">
+
+        <div>
+
+          <small>Looking for an exceptional property?</small>
+
+          <h3>
+            Speak with our private advisory team.
+          </h3>
+
+        </div>
+
+
+        <a
+          href="contact.html"
+          class="footer-consultation-button magnetic-btn"
+        >
+
+          <span>Begin a Conversation</span>
+
+          <span class="footer-consultation-icon">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </span>
+
+        </a>
+
+      </div>
+
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+
+        <div class="footer-copyright">
+
+          <p>
+            © <span id="currentYear">2026</span>
+            Élvara Estates. All rights reserved.
+          </p>
+
+        </div>
+
+
+        <div class="footer-legal-links">
+
+          <a href="#">
+            Privacy Policy
+          </a>
+
+          <a href="#">
+            Terms of Use
+          </a>
+
+          <a href="#">
+            Disclaimer
+          </a>
+
+        </div>
+
+
+        <div class="footer-credit">
+
+          <span>Created by</span>
+
+          <strong>
+            SVS DIGITAL STUDIO
+          </strong>
+
+          <i class="fa-solid fa-microphone-lines"></i>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================
+       FLOATING WHATSAPP / ENQUIRY BUTTON
+  ========================================== -->
+  <a
+    href="https://wa.me/919876543210?text=Hello%20Élvara%20Estates,%20I%20would%20like%20to%20enquire%20about%20a%20property."
+    class="floating-contact-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact Élvara Estates on WhatsApp"
+  >
+
+    <span class="floating-contact-tooltip">
+      Private Enquiry
+    </span>
+
+    <span class="floating-contact-icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </span>
+
+  </a>
+
+
+  <!-- =========================================
+       BACK TO TOP BUTTON
+  ========================================== -->
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="Back to top"
+  >
+
+    <svg
+      class="back-to-top-progress"
+      viewBox="0 0 50 50"
+      aria-hidden="true"
+    >
+
+      <circle
+        class="back-to-top-track"
+        cx="25"
+        cy="25"
+        r="22"
+      ></circle>
+
+      <circle
+        class="back-to-top-indicator"
+        id="scrollProgressCircle"
+        cx="25"
+        cy="25"
+        r="22"
+      ></circle>
+
+    </svg>
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+  </button>
+
+
+  <!-- =========================================
+       COOKIE NOTICE
+       Demo interface only
+  ========================================== -->
+  <div
+    class="cookie-notice"
+    id="cookieNotice"
+    role="dialog"
+    aria-label="Cookie notice"
+    aria-live="polite"
+  >
+
+    <div class="cookie-notice-content">
+
+      <div class="cookie-notice-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+
+
+      <div class="cookie-notice-text">
+
+        <strong>Your privacy matters</strong>
+
+        <p>
+          This demonstration website uses essential local preferences
+          to improve the browsing experience.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="cookie-notice-actions">
+
+      <button
+        class="cookie-button cookie-button-secondary"
+        id="cookieDecline"
+        type="button"
+      >
+        Decline
+      </button>
+
+
+      <button
+        class="cookie-button cookie-button-primary"
+        id="cookieAccept"
+        type="button"
+      >
+        Accept
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================================
+       NOSCRIPT MESSAGE
+  ========================================== -->
+  <noscript>
+
+    <div class="noscript-message">
+
+      JavaScript is disabled in your browser. Some animations,
+      navigation controls and interactive features may not work.
+
+    </div>
+
+  </noscript>
+
+
+  <!-- =========================================
+       MAIN JAVASCRIPT FILES
+  ========================================== -->
+  <script src="js/script.js"></script>
+  <script src="js/properties.js"></script>
+
+</body>
+  </html>
