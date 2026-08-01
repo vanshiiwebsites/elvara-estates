@@ -1,0 +1,5697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- =====================================================
+       BASIC META
+  ====================================================== -->
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Explore the Élvara Estates visual gallery featuring luxury architecture, refined interiors, private villas, penthouses, hospitality spaces and premium property experiences."
+  >
+
+  <meta
+    name="keywords"
+    content="luxury real estate gallery, villa interiors, penthouse architecture, luxury property photos, Élvara Estates gallery"
+  >
+
+  <meta
+    name="author"
+    content="Élvara Estates"
+  >
+
+  <meta
+    name="theme-color"
+    content="#101111"
+  >
+
+
+  <!-- =====================================================
+       PAGE TITLE
+  ====================================================== -->
+
+  <title>
+    Property Gallery | Élvara Estates
+  </title>
+
+
+  <!-- =====================================================
+       FAVICON
+  ====================================================== -->
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="images/logo.png"
+  >
+
+
+  <!-- =====================================================
+       GOOGLE FONTS
+  ====================================================== -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- =====================================================
+       FONT AWESOME
+  ====================================================== -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+
+  <!-- =====================================================
+       MAIN CSS FILES
+  ====================================================== -->
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/responsive.css"
+  >
+
+
+  <!-- =====================================================
+       GALLERY PAGE BASE STYLES
+  ====================================================== -->
+
+  <style>
+
+    /* =====================================================
+       GALLERY PAGE ROOT
+    ====================================================== */
+
+    .gallery-page {
+      position: relative;
+
+      overflow-x: hidden;
+
+      background: #f5f1e8;
+      color: #101111;
+    }
+
+
+    /* =====================================================
+       GALLERY HEADER
+    ====================================================== */
+
+    .gallery-header {
+      background:
+        rgba(8, 9, 9, 0.7);
+
+      border-bottom: 1px solid
+        rgba(255, 255, 255, 0.1);
+
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    .gallery-header .nav-link {
+      color:
+        rgba(255, 255, 255, 0.72);
+    }
+
+    .gallery-header .nav-link:hover,
+    .gallery-header .nav-link.active {
+      color: #ffffff;
+    }
+
+
+    /* =====================================================
+       SKIP LINK
+    ====================================================== */
+
+    .skip-to-content {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 11000;
+
+      padding: 11px 16px;
+
+      opacity: 0;
+      visibility: hidden;
+
+      transform: translateY(-12px);
+
+      border-radius: 999px;
+
+      background: #c8a96b;
+      color: #080909;
+
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      transition:
+        opacity 0.2s ease,
+        visibility 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .skip-to-content:focus {
+      opacity: 1;
+      visibility: visible;
+
+      transform: translateY(0);
+    }
+
+
+    /* =====================================================
+       KEYBOARD FOCUS
+    ====================================================== */
+
+    .keyboard-navigation a:focus-visible,
+    .keyboard-navigation button:focus-visible,
+    .keyboard-navigation input:focus-visible {
+      outline: 2px solid #c8a96b;
+      outline-offset: 4px;
+    }
+
+  </style>
+
+</head>
+
+
+<body class="gallery-page loading">
+
+
+  <!-- =====================================================
+       SKIP LINK
+  ====================================================== -->
+
+  <a
+    href="#mainContent"
+    class="skip-to-content"
+  >
+    Skip to gallery
+  </a>
+
+
+  <!-- =====================================================
+       WEBSITE LOADER
+  ====================================================== -->
+
+  <div
+    class="site-loader"
+    id="siteLoader"
+    aria-hidden="false"
+  >
+
+    <div class="loader-background">
+
+      <span class="loader-line loader-line-one"></span>
+      <span class="loader-line loader-line-two"></span>
+
+      <span class="loader-circle"></span>
+
+    </div>
+
+
+    <div class="loader-content">
+
+      <div class="loader-logo-wrap">
+
+        <img
+          src="images/logo.png"
+          alt="Élvara Estates logo"
+          class="loader-logo"
+        >
+
+      </div>
+
+
+      <div class="loader-brand">
+
+        <span>
+          ÉLVARA
+        </span>
+
+        <small>
+          ESTATES
+        </small>
+
+      </div>
+
+
+      <div class="loader-progress">
+
+        <span class="loader-progress-line"></span>
+
+      </div>
+
+
+      <p class="loader-text">
+        Curating the Élvara visual collection
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       PAGE TRANSITION
+  ====================================================== -->
+
+  <div
+    class="page-transition"
+    id="pageTransition"
+    aria-hidden="true"
+  >
+
+    <div class="page-transition-panel"></div>
+
+
+    <div class="page-transition-content">
+
+      <img
+        src="images/logo.png"
+        alt=""
+        aria-hidden="true"
+      >
+
+      <span>
+        Élvara Estates
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       CUSTOM CURSOR
+  ====================================================== -->
+
+  <div
+    class="custom-cursor"
+    id="customCursor"
+    aria-hidden="true"
+  ></div>
+
+  <div
+    class="cursor-follower"
+    id="cursorFollower"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- =====================================================
+       MAIN HEADER
+  ====================================================== -->
+
+  <header
+    class="main-header gallery-header"
+    id="mainHeader"
+  >
+
+    <div class="header-container section-container">
+
+
+      <!-- =================================================
+           BRAND
+      ================================================== -->
+
+      <a
+        href="index.html"
+        class="brand-logo"
+        aria-label="Élvara Estates homepage"
+      >
+
+        <img
+          src="images/logo.png"
+          alt="Élvara Estates logo"
+        >
+
+
+        <span class="brand-name">
+
+          <span>
+            ÉLVARA
+          </span>
+
+          <small>
+            ESTATES
+          </small>
+
+        </span>
+
+      </a>
+
+
+      <!-- =================================================
+           DESKTOP NAVIGATION
+      ================================================== -->
+
+      <nav
+        class="desktop-nav"
+        aria-label="Primary navigation"
+      >
+
+        <ul class="nav-list">
+
+          <li>
+            <a
+              href="index.html"
+              class="nav-link"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="properties.html"
+              class="nav-link"
+            >
+              Properties
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="about.html"
+              class="nav-link"
+            >
+              About
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="services.html"
+              class="nav-link"
+            >
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="gallery.html"
+              class="nav-link active"
+              aria-current="page"
+            >
+              Gallery
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="contact.html"
+              class="nav-link"
+            >
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!-- =================================================
+           HEADER ACTIONS
+      ================================================== -->
+
+      <div class="header-actions">
+
+
+        <!-- Favorites -->
+
+        <button
+          class="header-property-action"
+          type="button"
+          aria-label="View saved properties"
+        >
+
+          <i class="fa-regular fa-heart"></i>
+
+          <span
+            class="header-property-action-count"
+            data-favorites-count
+            hidden
+          >
+            0
+          </span>
+
+        </button>
+
+
+        <!-- Comparison -->
+
+        <button
+          class="header-property-action"
+          type="button"
+          data-open-comparison
+          aria-label="Open property comparison"
+        >
+
+          <i class="fa-solid fa-code-compare"></i>
+
+          <span
+            class="header-property-action-count"
+            data-comparison-count
+            hidden
+          >
+            0
+          </span>
+
+        </button>
+
+
+        <!-- Enquiry -->
+
+        <a
+          href="contact.html"
+          class="header-enquiry-btn magnetic-btn"
+        >
+
+          <span>
+            Private Enquiry
+          </span>
+
+          <span class="header-enquiry-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </a>
+
+
+        <!-- Mobile Menu Toggle -->
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+
+          <span></span>
+          <span></span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =====================================================
+       MOBILE MENU OVERLAY
+  ====================================================== -->
+
+  <div
+    class="mobile-menu-overlay"
+    id="mobileMenuOverlay"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- =====================================================
+       MOBILE MENU START
+       Part 2 will continue from here
+  ====================================================== -->
+    <!-- =====================================================
+       MOBILE MENU
+  ====================================================== -->
+
+  <aside
+    class="mobile-menu"
+    id="mobileMenu"
+    aria-hidden="true"
+  >
+
+    <div class="mobile-menu-inner">
+
+
+      <!-- Mobile Menu Top -->
+
+      <div class="mobile-menu-top">
+
+        <a
+          href="index.html"
+          class="mobile-brand-logo"
+          aria-label="Élvara Estates homepage"
+        >
+
+          <img
+            src="images/logo.png"
+            alt="Élvara Estates logo"
+          >
+
+          <span class="mobile-brand-name">
+
+            <span>
+              ÉLVARA
+            </span>
+
+            <small>
+              ESTATES
+            </small>
+
+          </span>
+
+        </a>
+
+
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          type="button"
+          aria-label="Close navigation menu"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+      </div>
+
+
+      <!-- Mobile Navigation -->
+
+      <nav
+        class="mobile-navigation"
+        aria-label="Mobile navigation"
+      >
+
+        <ul>
+
+          <li>
+            <span>01</span>
+
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <span>02</span>
+
+            <a href="properties.html">
+              Properties
+            </a>
+          </li>
+
+          <li>
+            <span>03</span>
+
+            <a href="about.html">
+              About
+            </a>
+          </li>
+
+          <li>
+            <span>04</span>
+
+            <a href="services.html">
+              Services
+            </a>
+          </li>
+
+          <li>
+            <span>05</span>
+
+            <a
+              href="gallery.html"
+              class="active"
+              aria-current="page"
+            >
+              Gallery
+            </a>
+          </li>
+
+          <li>
+            <span>06</span>
+
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!-- Mobile Menu Footer -->
+
+      <div class="mobile-menu-footer">
+
+        <p>
+          Explore architecture, interiors, landscapes and
+          cinematic property experiences from across the
+          Élvara collection.
+        </p>
+
+
+        <a
+          href="contact.html"
+          class="mobile-enquiry-btn"
+        >
+
+          <span>
+            Arrange a Private Consultation
+          </span>
+
+          <span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </a>
+
+
+        <div class="mobile-social-links">
+
+          <a
+            href="#"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="#"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="#"
+            aria-label="Pinterest"
+          >
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </aside>
+
+
+  <!-- =====================================================
+       MAIN CONTENT
+  ====================================================== -->
+
+  <main
+    id="mainContent"
+    tabindex="-1"
+  >
+
+
+    <!-- ===================================================
+         GALLERY HERO
+    ==================================================== -->
+
+    <section
+      class="gallery-hero"
+      aria-labelledby="galleryHeroTitle"
+    >
+
+      <div class="gallery-hero-background">
+
+
+        <!-- Cinematic Background Video -->
+
+        <video
+          class="gallery-hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/gallery-lobby.jpg"
+        >
+
+          <source
+            src="videos/architecture-background.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+
+        <div class="gallery-hero-overlay"></div>
+
+        <div class="gallery-hero-texture"></div>
+
+        <span class="gallery-hero-line gallery-hero-line-one"></span>
+        <span class="gallery-hero-line gallery-hero-line-two"></span>
+        <span class="gallery-hero-line gallery-hero-line-three"></span>
+
+      </div>
+
+
+      <div class="gallery-hero-container section-container">
+
+
+        <!-- Hero Top -->
+
+        <div class="gallery-hero-top reveal-up">
+
+
+          <!-- Breadcrumb -->
+
+          <nav
+            class="gallery-breadcrumb"
+            aria-label="Breadcrumb"
+          >
+
+            <a href="index.html">
+              Home
+            </a>
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+            <span aria-current="page">
+              Gallery
+            </span>
+
+          </nav>
+
+
+          <!-- Hero Reference -->
+
+          <span class="gallery-hero-reference">
+            Élvara Visual Collection
+          </span>
+
+        </div>
+
+
+        <!-- Main Hero Content -->
+
+        <div class="gallery-hero-content">
+
+
+          <div class="gallery-hero-copy reveal-up">
+
+
+            <!-- Eyebrow -->
+
+            <div class="gallery-hero-eyebrow">
+
+              <span></span>
+
+              <p>
+                Architecture in Detail
+              </p>
+
+            </div>
+
+
+            <!-- Main Heading -->
+
+            <h1 id="galleryHeroTitle">
+
+              Explore the spaces that define
+
+              <em>
+                the Élvara experience.
+              </em>
+
+            </h1>
+
+
+            <!-- Description -->
+
+            <p class="gallery-hero-description">
+              A visual collection of architecture, interiors,
+              private landscapes, hospitality spaces and
+              cinematic property experiences selected for
+              their atmosphere, detail and enduring character.
+            </p>
+
+
+            <!-- Hero Actions -->
+
+            <div class="gallery-hero-actions">
+
+              <a
+                href="#galleryCollection"
+                class="primary-btn magnetic-btn"
+              >
+
+                <span>
+                  Explore Visual Collection
+                </span>
+
+                <span class="button-icon">
+                  <i class="fa-solid fa-arrow-down"></i>
+                </span>
+
+              </a>
+
+
+              <a
+                href="properties.html"
+                class="secondary-btn"
+              >
+
+                <span>
+                  View Properties
+                </span>
+
+                <span class="button-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <!-- Hero Visual Statement -->
+
+          <aside class="gallery-hero-statement reveal-up">
+
+            <span class="gallery-hero-statement-number">
+              01
+            </span>
+
+
+            <small>
+              Visual Perspective
+            </small>
+
+
+            <blockquote>
+              Architecture is understood through the way
+              space, light, material and landscape come together.
+            </blockquote>
+
+
+            <div class="gallery-hero-statement-signature">
+
+              <span></span>
+
+              <p>
+                Élvara Estates
+              </p>
+
+            </div>
+
+          </aside>
+
+        </div>
+
+
+        <!-- Hero Bottom -->
+
+        <div class="gallery-hero-bottom reveal-up">
+
+
+          <!-- Visual Foundation -->
+
+          <div class="gallery-hero-foundation">
+
+            <span class="gallery-hero-foundation-icon">
+              <i class="fa-regular fa-images"></i>
+            </span>
+
+
+            <div>
+
+              <small>
+                Visual Collection
+              </small>
+
+              <strong>
+                Architecture, interiors and lifestyle
+              </strong>
+
+            </div>
+
+          </div>
+
+
+          <!-- Gallery Statistics -->
+
+          <div class="gallery-hero-statistics">
+
+
+            <div class="gallery-hero-stat">
+
+              <strong
+                class="counter"
+                data-target="17"
+              >
+                0
+              </strong>
+
+              <span>
+                Visual Assets
+              </span>
+
+            </div>
+
+
+            <div class="gallery-hero-stat">
+
+              <strong
+                class="counter"
+                data-target="5"
+              >
+                0
+              </strong>
+
+              <span>
+                Cinematic Films
+              </span>
+
+            </div>
+
+
+            <div class="gallery-hero-stat">
+
+              <strong
+                class="counter"
+                data-target="5"
+              >
+                0
+              </strong>
+
+              <span>
+                Gallery Categories
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- Scroll Indicator -->
+
+          <a
+            href="#galleryCollection"
+            class="gallery-hero-scroll"
+            aria-label="Scroll to visual collection"
+          >
+
+            <span>
+              Scroll to explore
+            </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Hero Side Index -->
+
+      <div
+        class="gallery-hero-index"
+        aria-hidden="true"
+      >
+
+        <span>
+          Gallery
+        </span>
+
+        <strong>
+          01
+        </strong>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         GALLERY INTRODUCTION STRIP
+    ==================================================== -->
+
+    <section class="gallery-introduction-strip">
+
+      <div class="gallery-introduction-track">
+
+        <span>
+          Architecture
+        </span>
+
+        <i class="fa-solid fa-star-of-life"></i>
+
+        <span>
+          Interiors
+        </span>
+
+        <i class="fa-solid fa-star-of-life"></i>
+
+        <span>
+          Landscapes
+        </span>
+
+        <i class="fa-solid fa-star-of-life"></i>
+
+        <span>
+          Hospitality
+        </span>
+
+        <i class="fa-solid fa-star-of-life"></i>
+
+        <span>
+          Property Films
+        </span>
+
+        <i class="fa-solid fa-star-of-life"></i>
+
+        <span>
+          Lifestyle Details
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         GALLERY INTRO
+    ==================================================== -->
+
+    <section
+      class="gallery-intro section-padding"
+      id="galleryCollection"
+    >
+
+      <div class="section-container">
+
+
+        <!-- Section Heading -->
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Élvara Visual Collection
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Property revealed through
+
+              <em>
+                image, atmosphere and movement.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Browse the collection by visual category and
+              experience the architectural details, interiors,
+              landscapes and cinematic perspectives that shape
+              each Élvara property.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Gallery Introduction Layout -->
+
+        <div class="gallery-intro-layout">
+
+
+          <!-- Main Intro Visual -->
+
+          <div class="gallery-intro-main-visual reveal-up">
+
+            <img
+              src="images/property-villa.jpg"
+              alt="Luxury villa architecture in the Élvara visual collection"
+              loading="eager"
+              decoding="async"
+            >
+
+
+            <div class="gallery-intro-main-overlay"></div>
+
+
+            <div class="gallery-intro-main-caption">
+
+              <span>
+                01
+              </span>
+
+              <div>
+
+                <small>
+                  Featured Perspective
+                </small>
+
+                <strong>
+                  Architecture connected to landscape
+                </strong>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Intro Copy -->
+
+          <div class="gallery-intro-content reveal-up">
+
+            <small>
+              A Visual Property Experience
+            </small>
+
+
+            <h3>
+              Images should help explain how a property feels.
+            </h3>
+
+
+            <p>
+              The Élvara gallery focuses on more than individual
+              rooms. It reveals spatial flow, material character,
+              natural light, views and the relationship between
+              architecture and its surroundings.
+            </p>
+
+
+            <div class="gallery-intro-principles">
+
+
+              <article>
+
+                <span>
+                  01
+                </span>
+
+                <div>
+
+                  <h4>
+                    Space
+                  </h4>
+
+                  <p>
+                    Understand proportion, openness and the
+                    relationship between different areas.
+                  </p>
+
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span>
+                  02
+                </span>
+
+                <div>
+
+                  <h4>
+                    Light
+                  </h4>
+
+                  <p>
+                    Observe how natural light shapes materials,
+                    atmosphere and daily experience.
+                  </p>
+
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span>
+                  03
+                </span>
+
+                <div>
+
+                  <h4>
+                    Detail
+                  </h4>
+
+                  <p>
+                    Explore finishes, textures and design
+                    decisions that create lasting character.
+                  </p>
+
+                </div>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- =================================================
+             GALLERY FILTERS START
+             Part 3 will continue from here
+        ================================================== -->
+                <!-- =================================================
+             GALLERY CATEGORY FILTERS
+        ================================================== -->
+
+        <div
+          class="gallery-filter-toolbar reveal-up"
+          id="galleryFilterToolbar"
+          role="group"
+          aria-label="Filter gallery by category"
+        >
+
+          <button
+            class="gallery-filter-button active"
+            type="button"
+            data-gallery-filter="all"
+            aria-pressed="true"
+          >
+            All Visuals
+          </button>
+
+
+          <button
+            class="gallery-filter-button"
+            type="button"
+            data-gallery-filter="architecture"
+            aria-pressed="false"
+          >
+            Architecture
+          </button>
+
+
+          <button
+            class="gallery-filter-button"
+            type="button"
+            data-gallery-filter="interiors"
+            aria-pressed="false"
+          >
+            Interiors
+          </button>
+
+
+          <button
+            class="gallery-filter-button"
+            type="button"
+            data-gallery-filter="lifestyle"
+            aria-pressed="false"
+          >
+            Lifestyle
+          </button>
+
+
+          <button
+            class="gallery-filter-button"
+            type="button"
+            data-gallery-filter="hospitality"
+            aria-pressed="false"
+          >
+            Hospitality
+          </button>
+
+
+          <button
+            class="gallery-filter-button"
+            type="button"
+            data-gallery-filter="landscape"
+            aria-pressed="false"
+          >
+            Landscape
+          </button>
+
+        </div>
+
+
+        <!-- =================================================
+             FEATURED GALLERY GRID
+        ================================================== -->
+
+        <div
+          class="gallery-featured-grid"
+          id="galleryFeaturedGrid"
+          aria-live="polite"
+        >
+
+
+          <!-- Villa Exterior -->
+
+          <figure
+            class="gallery-featured-item gallery-featured-item-large reveal-up"
+            data-gallery-category="architecture"
+            data-gallery-src="images/property-villa.jpg"
+            data-gallery-title="Aurelia Hillside Villa"
+            data-gallery-subtitle="Architecture"
+          >
+
+            <img
+              src="images/property-villa.jpg"
+              alt="Luxury hillside villa with modern architecture"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                01
+              </span>
+
+
+              <div>
+
+                <small>
+                  Architecture
+                </small>
+
+                <h3>
+                  Aurelia Hillside Villa
+                </h3>
+
+                <p>
+                  Contemporary residential architecture
+                  shaped around landscape and privacy.
+                </p>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Aurelia Hillside Villa image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Penthouse -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="architecture"
+            data-gallery-src="images/property-penthouse.jpg"
+            data-gallery-title="Skyline Grand Penthouse"
+            data-gallery-subtitle="Urban Living"
+          >
+
+            <img
+              src="images/property-penthouse.jpg"
+              alt="Luxury penthouse with modern city architecture"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                02
+              </span>
+
+
+              <div>
+
+                <small>
+                  Urban Living
+                </small>
+
+                <h3>
+                  Skyline Grand Penthouse
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Skyline Grand Penthouse image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Living Room -->
+
+          <figure
+            class="gallery-featured-item gallery-featured-item-tall reveal-up"
+            data-gallery-category="interiors"
+            data-gallery-src="images/interior-living-room.jpg"
+            data-gallery-title="Grand Living Room"
+            data-gallery-subtitle="Interior Perspective"
+          >
+
+            <img
+              src="images/interior-living-room.jpg"
+              alt="Elegant luxury living room with refined interiors"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                03
+              </span>
+
+
+              <div>
+
+                <small>
+                  Interior Perspective
+                </small>
+
+                <h3>
+                  Grand Living Room
+                </h3>
+
+                <p>
+                  A calm social space defined by proportion,
+                  light and material warmth.
+                </p>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Grand Living Room image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Bedroom -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="interiors"
+            data-gallery-src="images/interior-bedroom.jpg"
+            data-gallery-title="Principal Bedroom"
+            data-gallery-subtitle="Private Retreat"
+          >
+
+            <img
+              src="images/interior-bedroom.jpg"
+              alt="Luxury principal bedroom with calm styling"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                04
+              </span>
+
+
+              <div>
+
+                <small>
+                  Private Retreat
+                </small>
+
+                <h3>
+                  Principal Bedroom
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Principal Bedroom image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Pool -->
+
+          <figure
+            class="gallery-featured-item gallery-featured-item-wide reveal-up"
+            data-gallery-category="lifestyle landscape"
+            data-gallery-src="images/gallery-pool.jpg"
+            data-gallery-title="Private Pool Experience"
+            data-gallery-subtitle="Outdoor Living"
+          >
+
+            <img
+              src="images/gallery-pool.jpg"
+              alt="Luxury swimming pool and landscaped outdoor deck"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                05
+              </span>
+
+
+              <div>
+
+                <small>
+                  Outdoor Living
+                </small>
+
+                <h3>
+                  Private Pool Experience
+                </h3>
+
+                <p>
+                  Landscape, leisure and architecture
+                  connected through one continuous experience.
+                </p>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Private Pool Experience image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Hotel -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="hospitality architecture"
+            data-gallery-src="images/property-hotel.jpg"
+            data-gallery-title="Élvara Boutique Hotel"
+            data-gallery-subtitle="Hospitality"
+          >
+
+            <img
+              src="images/property-hotel.jpg"
+              alt="Luxury boutique hotel architecture"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                06
+              </span>
+
+
+              <div>
+
+                <small>
+                  Hospitality
+                </small>
+
+                <h3>
+                  Élvara Boutique Hotel
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Élvara Boutique Hotel image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Lobby -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="hospitality interiors"
+            data-gallery-src="images/gallery-lobby.jpg"
+            data-gallery-title="Architectural Lobby"
+            data-gallery-subtitle="Arrival Experience"
+          >
+
+            <img
+              src="images/gallery-lobby.jpg"
+              alt="Premium architectural hotel lobby"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                07
+              </span>
+
+
+              <div>
+
+                <small>
+                  Arrival Experience
+                </small>
+
+                <h3>
+                  Architectural Lobby
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Architectural Lobby image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Kitchen -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="interiors lifestyle"
+            data-gallery-src="images/interior-kitchen.jpg"
+            data-gallery-title="Designer Kitchen"
+            data-gallery-subtitle="Functional Elegance"
+          >
+
+            <img
+              src="images/interior-kitchen.jpg"
+              alt="Luxury designer kitchen with premium materials"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                08
+              </span>
+
+
+              <div>
+
+                <small>
+                  Functional Elegance
+                </small>
+
+                <h3>
+                  Designer Kitchen
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Designer Kitchen image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Beach House -->
+
+          <figure
+            class="gallery-featured-item gallery-featured-item-large reveal-up"
+            data-gallery-category="architecture lifestyle landscape"
+            data-gallery-src="images/property-beach-house.jpg"
+            data-gallery-title="Azure Coastal Residence"
+            data-gallery-subtitle="Coastal Living"
+          >
+
+            <img
+              src="images/property-beach-house.jpg"
+              alt="Luxury coastal beach house architecture"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                09
+              </span>
+
+
+              <div>
+
+                <small>
+                  Coastal Living
+                </small>
+
+                <h3>
+                  Azure Coastal Residence
+                </h3>
+
+                <p>
+                  Architecture shaped by horizon, light,
+                  breeze and a strong relationship with water.
+                </p>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Azure Coastal Residence image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Bathroom -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="interiors lifestyle"
+            data-gallery-src="images/interior-bathroom.jpg"
+            data-gallery-title="Private Wellness Suite"
+            data-gallery-subtitle="Wellness"
+          >
+
+            <img
+              src="images/interior-bathroom.jpg"
+              alt="Luxury bathroom with premium finishes"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                10
+              </span>
+
+
+              <div>
+
+                <small>
+                  Wellness
+                </small>
+
+                <h3>
+                  Private Wellness Suite
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Private Wellness Suite image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Balcony -->
+
+          <figure
+            class="gallery-featured-item gallery-featured-item-wide reveal-up"
+            data-gallery-category="landscape lifestyle"
+            data-gallery-src="images/gallery-balcony.jpg"
+            data-gallery-title="Private Viewpoint"
+            data-gallery-subtitle="Sense of Place"
+          >
+
+            <img
+              src="images/gallery-balcony.jpg"
+              alt="Luxury balcony overlooking a scenic landscape"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                11
+              </span>
+
+
+              <div>
+
+                <small>
+                  Sense of Place
+                </small>
+
+                <h3>
+                  Private Viewpoint
+                </h3>
+
+                <p>
+                  A quiet architectural edge between
+                  private interiors and expansive surroundings.
+                </p>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Private Viewpoint image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Commercial -->
+
+          <figure
+            class="gallery-featured-item reveal-up"
+            data-gallery-category="architecture"
+            data-gallery-src="images/property-commercial.jpg"
+            data-gallery-title="Premium Commercial Address"
+            data-gallery-subtitle="Business Architecture"
+          >
+
+            <img
+              src="images/property-commercial.jpg"
+              alt="Premium commercial building architecture"
+              loading="lazy"
+              decoding="async"
+            >
+
+
+            <div class="gallery-featured-overlay"></div>
+
+
+            <figcaption>
+
+              <span class="gallery-featured-number">
+                12
+              </span>
+
+
+              <div>
+
+                <small>
+                  Business Architecture
+                </small>
+
+                <h3>
+                  Premium Commercial Address
+                </h3>
+
+              </div>
+
+
+              <button
+                class="gallery-featured-open"
+                type="button"
+                data-gallery-open
+                aria-label="Open Premium Commercial Address image"
+              >
+                <i class="fa-solid fa-expand"></i>
+              </button>
+
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+
+        <!-- =================================================
+             GALLERY RESULT STATUS
+        ================================================== -->
+
+        <div
+          class="gallery-filter-status reveal-up"
+          aria-live="polite"
+        >
+
+          <span
+            id="galleryVisibleCount"
+          >
+            12 visuals displayed
+          </span>
+
+
+          <button
+            id="galleryResetFilter"
+            type="button"
+            hidden
+          >
+
+            <i class="fa-solid fa-rotate-left"></i>
+
+            <span>
+              Show All Visuals
+            </span>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         GALLERY FULLSCREEN LIGHTBOX
+    ==================================================== -->
+
+    <div
+      class="gallery-page-lightbox"
+      id="galleryPageLightbox"
+      aria-hidden="true"
+    >
+
+      <div class="gallery-page-lightbox-backdrop"></div>
+
+
+      <div
+        class="gallery-page-lightbox-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Gallery image preview"
+      >
+
+        <button
+          class="gallery-page-lightbox-close"
+          type="button"
+          aria-label="Close gallery preview"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <button
+          class="gallery-page-lightbox-navigation gallery-page-lightbox-previous"
+          type="button"
+          aria-label="View previous image"
+        >
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+
+        <figure>
+
+          <img
+            id="galleryPageLightboxImage"
+            src="images/property-villa.jpg"
+            alt="Élvara gallery preview"
+          >
+
+
+          <figcaption>
+
+            <div>
+
+              <small
+                id="galleryPageLightboxSubtitle"
+              >
+                                Architecture
+              </small>
+
+              <strong
+                id="galleryPageLightboxTitle"
+              >
+                Aurelia Hillside Villa
+              </strong>
+
+            </div>
+
+
+            <span
+              id="galleryPageLightboxCounter"
+            >
+              01 / 12
+            </span>
+
+          </figcaption>
+
+        </figure>
+
+
+        <button
+          class="gallery-page-lightbox-navigation gallery-page-lightbox-next"
+          type="button"
+          aria-label="View next image"
+        >
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================================
+         ARCHITECTURE AND INTERIORS START
+         Part 4 will continue from here
+    ==================================================== -->
+        <!-- ===================================================
+         ARCHITECTURE COLLECTION
+    ==================================================== -->
+
+    <section class="gallery-architecture section-padding">
+
+      <div class="section-container">
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Architectural Collection
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Architecture shaped by
+
+              <em>
+                context, proportion and light.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Explore villas, penthouses, residences,
+              hospitality properties and commercial spaces
+              through their exterior character and connection
+              with their surroundings.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-architecture-layout">
+
+
+          <!-- Main Architecture Visual -->
+
+          <figure class="gallery-architecture-main reveal-up">
+
+            <img
+              src="images/property-villa.jpg"
+              alt="Luxury villa architecture connected with landscape"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-architecture-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                01
+              </span>
+
+              <div>
+
+                <small>
+                  Residential Architecture
+                </small>
+
+                <h3>
+                  Form shaped around landscape
+                </h3>
+
+                <p>
+                  A private residence composed through
+                  horizontal lines, natural materials and
+                  carefully framed outdoor views.
+                </p>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Architecture Detail Grid -->
+
+          <div class="gallery-architecture-details">
+
+
+            <figure class="gallery-architecture-detail reveal-up">
+
+              <img
+                src="images/property-penthouse.jpg"
+                alt="Luxury penthouse architecture above the city"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-architecture-overlay"></div>
+
+
+              <figcaption>
+
+                <span>
+                  02
+                </span>
+
+                <div>
+
+                  <small>
+                    Urban Architecture
+                  </small>
+
+                  <h3>
+                    Elevated city living
+                  </h3>
+
+                </div>
+
+              </figcaption>
+
+            </figure>
+
+
+            <figure class="gallery-architecture-detail reveal-up">
+
+              <img
+                src="images/property-apartment.jpg"
+                alt="Premium residential apartment architecture"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-architecture-overlay"></div>
+
+
+              <figcaption>
+
+                <span>
+                  03
+                </span>
+
+                <div>
+
+                  <small>
+                    Contemporary Residence
+                  </small>
+
+                  <h3>
+                    Refined urban proportions
+                  </h3>
+
+                </div>
+
+              </figcaption>
+
+            </figure>
+
+
+            <figure class="gallery-architecture-detail gallery-architecture-detail-wide reveal-up">
+
+              <img
+                src="images/property-commercial.jpg"
+                alt="Premium commercial architecture"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-architecture-overlay"></div>
+
+
+              <figcaption>
+
+                <span>
+                  04
+                </span>
+
+                <div>
+
+                  <small>
+                    Commercial Architecture
+                  </small>
+
+                  <h3>
+                    Identity expressed through structure
+                  </h3>
+
+                </div>
+
+              </figcaption>
+
+            </figure>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ARCHITECTURAL STATEMENT
+    ==================================================== -->
+
+    <section class="gallery-architecture-statement">
+
+      <div class="section-container gallery-architecture-statement-inner">
+
+        <span class="gallery-architecture-statement-number reveal-up">
+          02
+        </span>
+
+
+        <blockquote class="reveal-up">
+          Architecture becomes memorable when every line,
+          opening and material contributes to the experience
+          of place.
+        </blockquote>
+
+
+        <div class="gallery-architecture-statement-signature reveal-up">
+
+          <span></span>
+
+          <p>
+            Élvara Architectural Perspective
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         INTERIOR COLLECTION
+    ==================================================== -->
+
+    <section class="gallery-interiors section-padding">
+
+      <div class="section-container">
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Interior Collection
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Interiors composed through
+
+              <em>
+                warmth, calm and functionality.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Each interior is understood through spatial
+              proportion, natural light, material character
+              and its ability to support everyday living.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-interiors-grid">
+
+
+          <!-- Living Room -->
+
+          <figure class="gallery-interior-item gallery-interior-item-large reveal-up">
+
+            <img
+              src="images/interior-living-room.jpg"
+              alt="Luxury living room with refined contemporary design"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-interior-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                01
+              </span>
+
+              <div>
+
+                <small>
+                  Social Space
+                </small>
+
+                <h3>
+                  Grand Living Room
+                </h3>
+
+                <p>
+                  Generous proportions balanced by natural
+                  textures and controlled daylight.
+                </p>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Bedroom -->
+
+          <figure class="gallery-interior-item reveal-up">
+
+            <img
+              src="images/interior-bedroom.jpg"
+              alt="Luxury bedroom designed as a private retreat"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-interior-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                02
+              </span>
+
+              <div>
+
+                <small>
+                  Private Retreat
+                </small>
+
+                <h3>
+                  Principal Bedroom
+                </h3>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Kitchen -->
+
+          <figure class="gallery-interior-item reveal-up">
+
+            <img
+              src="images/interior-kitchen.jpg"
+              alt="Premium designer kitchen with natural materials"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-interior-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                03
+              </span>
+
+              <div>
+
+                <small>
+                  Culinary Space
+                </small>
+
+                <h3>
+                  Designer Kitchen
+                </h3>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+
+          <!-- Bathroom -->
+
+          <figure class="gallery-interior-item gallery-interior-item-wide reveal-up">
+
+            <img
+              src="images/interior-bathroom.jpg"
+              alt="Luxury bathroom with premium stone and spa character"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-interior-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                04
+              </span>
+
+              <div>
+
+                <small>
+                  Personal Wellness
+                </small>
+
+                <h3>
+                  Private Spa Experience
+                </h3>
+
+                <p>
+                  Natural finishes and restrained detailing
+                  create a calm personal environment.
+                </p>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         MATERIAL DETAIL EXPERIENCE
+    ==================================================== -->
+
+    <section class="gallery-material-experience">
+
+      <div class="gallery-material-background">
+
+        <img
+          src="images/interior-kitchen.jpg"
+          alt="Premium interior material detailing"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="gallery-material-overlay"></div>
+
+        <div class="gallery-material-texture"></div>
+
+      </div>
+
+
+      <div class="section-container gallery-material-content">
+
+
+        <div class="gallery-material-copy reveal-up">
+
+          <div class="section-eyebrow">
+
+            <span class="section-eyebrow-line"></span>
+
+            <p>
+              Material Character
+            </p>
+
+          </div>
+
+
+          <h2>
+
+            Luxury experienced through
+
+            <em>
+              texture, craft and restraint.
+            </em>
+
+          </h2>
+
+
+          <p>
+            Stone, timber, metal, glass and soft finishes are
+            selected not only for appearance, but for the way
+            they age, respond to light and shape atmosphere.
+          </p>
+
+
+          <a
+            href="properties.html"
+            class="secondary-btn"
+          >
+
+            <span>
+              Explore Properties
+            </span>
+
+            <span class="button-icon">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+
+        <div class="gallery-material-points reveal-up">
+
+
+          <article>
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <small>
+                Stone
+              </small>
+
+              <strong>
+                Permanence, texture and visual depth
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <small>
+                Timber
+              </small>
+
+              <strong>
+                Warmth, balance and natural character
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <small>
+                Glass
+              </small>
+
+              <strong>
+                Light, openness and landscape connection
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              04
+            </span>
+
+            <div>
+
+              <small>
+                Craft
+              </small>
+
+              <strong>
+                Detail that reveals quality over time
+              </strong>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         LIFESTYLE AND LANDSCAPE GALLERY
+    ==================================================== -->
+
+    <section class="gallery-lifestyle section-padding">
+
+      <div class="section-container">
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Lifestyle and Landscape
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Property connected with
+
+              <em>
+                landscape, leisure and horizon.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Outdoor areas, pools, terraces and balconies
+              extend the living experience beyond enclosed
+              interiors and strengthen the sense of place.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-lifestyle-layout">
+
+
+          <!-- Pool -->
+
+          <figure class="gallery-lifestyle-main reveal-up">
+
+            <img
+              src="images/gallery-pool.jpg"
+              alt="Luxury private pool and outdoor landscape"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="gallery-lifestyle-overlay"></div>
+
+
+            <figcaption>
+
+              <span>
+                01
+              </span>
+
+              <div>
+
+                <small>
+                  Outdoor Living
+                </small>
+
+                <h3>
+                  Private Pool and Leisure
+                </h3>
+
+                <p>
+                  Architecture, water and landscape arranged
+                  as a seamless extension of the residence.
+                </p>
+
+              </div>
+
+            </figcaption>
+
+          </figure>
+
+
+          <div class="gallery-lifestyle-side">
+
+
+            <!-- Balcony -->
+
+            <figure class="gallery-lifestyle-side-item reveal-up">
+
+              <img
+                src="images/gallery-balcony.jpg"
+                alt="Luxury balcony overlooking an expansive landscape"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-lifestyle-overlay"></div>
+
+
+              <figcaption>
+
+                <span>
+                  02
+                </span>
+
+                <div>
+
+                  <small>
+                    Viewpoint
+                  </small>
+
+                  <h3>
+                    Private Balcony
+                  </h3>
+
+                </div>
+
+              </figcaption>
+
+            </figure>
+
+
+            <!-- Beach House -->
+
+            <figure class="gallery-lifestyle-side-item reveal-up">
+
+              <img
+                src="images/property-beach-house.jpg"
+                alt="Luxury coastal residence beside the sea"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-lifestyle-overlay"></div>
+
+
+              <figcaption>
+
+                <span>
+                  03
+                </span>
+
+                <div>
+
+                  <small>
+                    Coastal Living
+                  </small>
+
+                  <h3>
+                    Horizon Residence
+                  </h3>
+
+                </div>
+
+              </figcaption>
+
+            </figure>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         HOSPITALITY VISUAL EXPERIENCE
+    ==================================================== -->
+
+    <section class="gallery-hospitality">
+
+      <div class="gallery-hospitality-background">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/property-hotel.jpg"
+        >
+
+          <source
+            src="videos/luxury-hotel.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+
+        <div class="gallery-hospitality-overlay"></div>
+
+        <div class="gallery-hospitality-texture"></div>
+
+      </div>
+
+
+      <div class="section-container gallery-hospitality-content">
+
+
+        <div class="gallery-hospitality-copy reveal-up">
+
+          <div class="section-eyebrow">
+
+            <span class="section-eyebrow-line"></span>
+
+            <p>
+              Hospitality Collection
+            </p>
+
+          </div>
+
+
+          <h2>
+
+            Hospitality spaces designed around
+
+            <em>
+              arrival, atmosphere and memory.
+            </em>
+
+          </h2>
+
+
+          <p>
+            From architectural arrival and lobby character to
+            guest rooms, leisure spaces and surrounding
+            landscape, every element contributes to the
+            complete hospitality experience.
+          </p>
+
+
+          <a
+            href="properties.html?category=hotel"
+            class="secondary-btn"
+          >
+
+            <span>
+              Explore Hospitality Properties
+            </span>
+
+            <span class="button-icon">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+
+        <div class="gallery-hospitality-details reveal-up">
+
+
+          <article>
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <small>
+                Arrival
+              </small>
+
+              <strong>
+                Architecture that establishes identity
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <small>
+                Interiors
+              </small>
+
+              <strong>
+                Comfort shaped through material and light
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <small>
+                Shared Experience
+              </small>
+
+              <strong>
+                Social spaces that create atmosphere
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              04
+            </span>
+
+            <div>
+
+              <small>
+                Destination
+              </small>
+
+              <strong>
+                A property connected to its wider setting
+              </strong>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         VIDEO GALLERY START
+         Part 5 will continue from here
+    ==================================================== -->
+        <!-- ===================================================
+         CINEMATIC VIDEO GALLERY
+    ==================================================== -->
+
+    <section class="gallery-video-section section-padding">
+
+      <div class="section-container">
+
+
+        <!-- Section Heading -->
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Property Films
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Experience architecture through
+
+              <em>
+                movement, light and atmosphere.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Cinematic films reveal spatial flow, material
+              character, changing daylight and the relationship
+              between architecture and landscape.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Video Gallery Grid -->
+
+        <div class="gallery-video-grid">
+
+
+          <!-- Hero Luxury Villa Film -->
+
+          <article class="gallery-video-card gallery-video-card-featured reveal-up">
+
+            <div class="gallery-video-media">
+
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/property-villa.jpg"
+                data-gallery-video
+              >
+
+                <source
+                  src="videos/hero-luxury-villa.mp4"
+                  type="video/mp4"
+                >
+
+              </video>
+
+
+              <div class="gallery-video-overlay"></div>
+
+
+              <span class="gallery-video-number">
+                01
+              </span>
+
+
+              <button
+                class="gallery-video-play"
+                type="button"
+                data-gallery-video-toggle
+                aria-label="Play luxury villa property film"
+                aria-pressed="false"
+              >
+
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+
+                <strong>
+                  Play Film
+                </strong>
+
+              </button>
+
+
+              <button
+                class="gallery-video-sound"
+                type="button"
+                data-gallery-video-sound
+                aria-label="Enable video sound"
+                aria-pressed="false"
+              >
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+              </button>
+
+            </div>
+
+
+            <div class="gallery-video-content">
+
+              <small>
+                Signature Residence Film
+              </small>
+
+              <h3>
+                The Élvara Luxury Villa Experience
+              </h3>
+
+              <p>
+                A cinematic introduction to architecture,
+                private landscape and elevated residential
+                living.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- Villa Exterior Film -->
+
+          <article class="gallery-video-card reveal-up">
+
+            <div class="gallery-video-media">
+
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/property-villa.jpg"
+                data-gallery-video
+              >
+
+                <source
+                  src="videos/villa-exterior.mp4"
+                  type="video/mp4"
+                >
+
+              </video>
+
+
+              <div class="gallery-video-overlay"></div>
+
+
+              <span class="gallery-video-number">
+                02
+              </span>
+
+
+              <button
+                class="gallery-video-play"
+                type="button"
+                data-gallery-video-toggle
+                aria-label="Play villa exterior film"
+                aria-pressed="false"
+              >
+
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+
+                <strong>
+                  Play Film
+                </strong>
+
+              </button>
+
+
+              <button
+                class="gallery-video-sound"
+                type="button"
+                data-gallery-video-sound
+                aria-label="Enable video sound"
+                aria-pressed="false"
+              >
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+              </button>
+
+            </div>
+
+
+            <div class="gallery-video-content">
+
+              <small>
+                Exterior Architecture
+              </small>
+
+              <h3>
+                Villa and Landscape
+              </h3>
+
+              <p>
+                Contemporary form connected with natural
+                surroundings and outdoor living.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- Penthouse Film -->
+
+          <article class="gallery-video-card reveal-up">
+
+            <div class="gallery-video-media">
+
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/property-penthouse.jpg"
+                data-gallery-video
+              >
+
+                <source
+                  src="videos/penthouse-tour.mp4"
+                  type="video/mp4"
+                >
+
+              </video>
+
+
+              <div class="gallery-video-overlay"></div>
+
+
+              <span class="gallery-video-number">
+                03
+              </span>
+
+
+              <button
+                class="gallery-video-play"
+                type="button"
+                data-gallery-video-toggle
+                aria-label="Play penthouse property film"
+                aria-pressed="false"
+              >
+
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+
+                <strong>
+                  Play Film
+                </strong>
+
+              </button>
+
+
+              <button
+                class="gallery-video-sound"
+                type="button"
+                data-gallery-video-sound
+                aria-label="Enable video sound"
+                aria-pressed="false"
+              >
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+              </button>
+
+            </div>
+
+
+            <div class="gallery-video-content">
+
+              <small>
+                Elevated Urban Living
+              </small>
+
+              <h3>
+                Penthouse Perspective
+              </h3>
+
+              <p>
+                Expansive city views, refined interiors and
+                elevated private living.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- Luxury Hotel Film -->
+
+          <article class="gallery-video-card reveal-up">
+
+            <div class="gallery-video-media">
+
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/property-hotel.jpg"
+                data-gallery-video
+              >
+
+                <source
+                  src="videos/luxury-hotel.mp4"
+                  type="video/mp4"
+                >
+
+              </video>
+
+
+              <div class="gallery-video-overlay"></div>
+
+
+              <span class="gallery-video-number">
+                04
+              </span>
+
+
+              <button
+                class="gallery-video-play"
+                type="button"
+                data-gallery-video-toggle
+                aria-label="Play luxury hotel property film"
+                aria-pressed="false"
+              >
+
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+
+                <strong>
+                  Play Film
+                </strong>
+
+              </button>
+
+
+              <button
+                class="gallery-video-sound"
+                type="button"
+                data-gallery-video-sound
+                aria-label="Enable video sound"
+                aria-pressed="false"
+              >
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+              </button>
+
+            </div>
+
+
+            <div class="gallery-video-content">
+
+              <small>
+                Hospitality Experience
+              </small>
+
+              <h3>
+                Boutique Hotel Atmosphere
+              </h3>
+
+              <p>
+                Arrival, shared spaces and guest experience
+                captured through movement.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- Architecture Film -->
+
+          <article class="gallery-video-card gallery-video-card-wide reveal-up">
+
+            <div class="gallery-video-media">
+
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="images/gallery-lobby.jpg"
+                data-gallery-video
+              >
+
+                <source
+                  src="videos/architecture-background.mp4"
+                  type="video/mp4"
+                >
+
+              </video>
+
+
+              <div class="gallery-video-overlay"></div>
+
+
+              <span class="gallery-video-number">
+                05
+              </span>
+
+
+              <button
+                class="gallery-video-play"
+                type="button"
+                data-gallery-video-toggle
+                aria-label="Play architecture visual film"
+                aria-pressed="false"
+              >
+
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+
+                <strong>
+                  Play Film
+                </strong>
+
+              </button>
+
+
+              <button
+                class="gallery-video-sound"
+                type="button"
+                data-gallery-video-sound
+                aria-label="Enable video sound"
+                aria-pressed="false"
+              >
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+              </button>
+
+            </div>
+
+
+            <div class="gallery-video-content">
+
+              <small>
+                Architectural Film
+              </small>
+
+              <h3>
+                Space, Light and Material
+              </h3>
+
+              <p>
+                A visual study of proportion, movement,
+                material detail and architectural atmosphere.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         VIDEO GALLERY STATEMENT
+    ==================================================== -->
+
+    <section class="gallery-video-statement">
+
+      <div class="section-container gallery-video-statement-inner">
+
+        <span class="gallery-video-statement-number reveal-up">
+          05
+        </span>
+
+
+        <blockquote class="reveal-up">
+          Film reveals the rhythm of a property—the transition
+          between rooms, changing light and the atmosphere
+          created through movement.
+        </blockquote>
+
+
+        <div class="gallery-video-statement-signature reveal-up">
+
+          <span></span>
+
+          <p>
+            Élvara Cinematic Collection
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         GALLERY PAGE JAVASCRIPT
+    ==================================================== -->
+
+    <script>
+
+      document.addEventListener(
+        "DOMContentLoaded",
+        () => {
+
+          /* ===============================================
+             GALLERY FILTERING
+          ================================================ */
+
+          const filterButtons =
+            Array.from(
+              document.querySelectorAll(
+                "[data-gallery-filter]"
+              )
+            );
+
+          const galleryItems =
+            Array.from(
+              document.querySelectorAll(
+                "#galleryFeaturedGrid [data-gallery-category]"
+              )
+            );
+
+          const visibleCount =
+            document.getElementById(
+              "galleryVisibleCount"
+            );
+
+          const resetFilterButton =
+            document.getElementById(
+              "galleryResetFilter"
+            );
+
+
+          function updateGalleryVisibleCount() {
+            const visibleItems =
+              galleryItems.filter(
+                (item) =>
+                  !item.hidden
+              );
+
+            if (visibleCount) {
+              visibleCount.textContent =
+                `${visibleItems.length} ${
+                  visibleItems.length === 1
+                    ? "visual"
+                    : "visuals"
+                } displayed`;
+            }
+          }
+
+
+          function filterGallery(
+            selectedCategory
+          ) {
+            galleryItems.forEach(
+              (item) => {
+                const categories =
+                  item.dataset.galleryCategory
+                    ?.split(/\s+/)
+                    .filter(Boolean) || [];
+
+                const shouldShow =
+                  selectedCategory === "all" ||
+                  categories.includes(
+                    selectedCategory
+                  );
+
+                item.hidden = !shouldShow;
+
+                item.setAttribute(
+                  "aria-hidden",
+                  String(!shouldShow)
+                );
+              }
+            );
+
+
+            filterButtons.forEach(
+              (button) => {
+                const isActive =
+                  button.dataset.galleryFilter ===
+                  selectedCategory;
+
+                button.classList.toggle(
+                  "active",
+                  isActive
+                );
+
+                button.setAttribute(
+                  "aria-pressed",
+                  String(isActive)
+                );
+              }
+            );
+
+
+            if (resetFilterButton) {
+              resetFilterButton.hidden =
+                selectedCategory === "all";
+            }
+
+            updateGalleryVisibleCount();
+          }
+
+
+          filterButtons.forEach(
+            (button) => {
+              button.addEventListener(
+                "click",
+                () => {
+                  filterGallery(
+                    button.dataset.galleryFilter ||
+                    "all"
+                  );
+                }
+              );
+            }
+          );
+
+
+          resetFilterButton?.addEventListener(
+            "click",
+            () => {
+              filterGallery("all");
+            }
+          );
+
+
+          updateGalleryVisibleCount();
+
+
+          /* ===============================================
+             GALLERY LIGHTBOX
+          ================================================ */
+
+          const lightbox =
+            document.getElementById(
+              "galleryPageLightbox"
+            );
+
+          const lightboxImage =
+            document.getElementById(
+              "galleryPageLightboxImage"
+            );
+
+          const lightboxTitle =
+            document.getElementById(
+              "galleryPageLightboxTitle"
+            );
+
+          const lightboxSubtitle =
+            document.getElementById(
+              "galleryPageLightboxSubtitle"
+            );
+
+          const lightboxCounter =
+            document.getElementById(
+              "galleryPageLightboxCounter"
+            );
+
+          const closeLightboxButton =
+            lightbox?.querySelector(
+              ".gallery-page-lightbox-close"
+            );
+
+          const previousLightboxButton =
+            lightbox?.querySelector(
+              ".gallery-page-lightbox-previous"
+            );
+
+          const nextLightboxButton =
+            lightbox?.querySelector(
+              ".gallery-page-lightbox-next"
+            );
+
+          const lightboxBackdrop =
+            lightbox?.querySelector(
+              ".gallery-page-lightbox-backdrop"
+            );
+
+          let currentLightboxIndex = 0;
+
+
+          function getVisibleGalleryItems() {
+            return galleryItems.filter(
+              (item) => !item.hidden
+            );
+          }
+
+
+          function updateGalleryLightbox() {
+            const visibleItems =
+              getVisibleGalleryItems();
+
+            if (
+              visibleItems.length === 0
+            ) {
+              return;
+            }
+
+            if (
+              currentLightboxIndex < 0
+            ) {
+              currentLightboxIndex =
+                visibleItems.length - 1;
+            }
+
+            if (
+              currentLightboxIndex >=
+              visibleItems.length
+            ) {
+              currentLightboxIndex = 0;
+            }
+
+            const currentItem =
+              visibleItems[
+                currentLightboxIndex
+              ];
+
+            const imageSource =
+              currentItem.dataset.gallerySrc;
+
+            const imageTitle =
+              currentItem.dataset.galleryTitle ||
+              "Élvara Gallery";
+
+            const imageSubtitle =
+              currentItem.dataset.gallerySubtitle ||
+              "Visual Collection";
+
+
+            if (lightboxImage) {
+              lightboxImage.src =
+                imageSource || "";
+
+              lightboxImage.alt =
+                imageTitle;
+            }
+
+            if (lightboxTitle) {
+              lightboxTitle.textContent =
+                imageTitle;
+            }
+
+            if (lightboxSubtitle) {
+              lightboxSubtitle.textContent =
+                imageSubtitle;
+            }
+
+            if (lightboxCounter) {
+              lightboxCounter.textContent =
+                `${String(
+                  currentLightboxIndex + 1
+                ).padStart(2, "0")} / ${String(
+                  visibleItems.length
+                ).padStart(2, "0")}`;
+            }
+          }
+
+
+          function openGalleryLightbox(
+            selectedItem
+          ) {
+            if (!lightbox) return;
+
+            const visibleItems =
+              getVisibleGalleryItems();
+
+            const selectedIndex =
+              visibleItems.indexOf(
+                selectedItem
+              );
+
+            currentLightboxIndex =
+              selectedIndex >= 0
+                ? selectedIndex
+                : 0;
+
+            updateGalleryLightbox();
+
+            lightbox.classList.add(
+              "is-open"
+            );
+
+            lightbox.setAttribute(
+              "aria-hidden",
+              "false"
+            );
+
+            document.documentElement.classList.add(
+              "gallery-lightbox-open"
+            );
+
+            if (
+              typeof lockPageScroll ===
+              "function"
+            ) {
+              lockPageScroll();
+            } else {
+              document.body.style.overflow =
+                "hidden";
+            }
+
+            window.setTimeout(() => {
+              closeLightboxButton?.focus();
+            }, 120);
+          }
+
+
+          function closeGalleryLightbox() {
+            if (!lightbox) return;
+
+            lightbox.classList.remove(
+              "is-open"
+            );
+
+            lightbox.setAttribute(
+              "aria-hidden",
+              "true"
+            );
+
+            document.documentElement.classList.remove(
+              "gallery-lightbox-open"
+            );
+
+            if (
+              typeof unlockPageScroll ===
+              "function"
+            ) {
+              unlockPageScroll();
+            } else {
+              document.body.style.overflow =
+                "";
+            }
+          }
+
+
+          galleryItems.forEach(
+            (item) => {
+              const openButton =
+                item.querySelector(
+                  "[data-gallery-open]"
+                );
+
+                            openButton?.addEventListener(
+                "click",
+                (event) => {
+                  event.preventDefault();
+                  event.stopPropagation();
+
+                  openGalleryLightbox(
+                    item
+                  );
+                }
+              );
+
+
+              item.addEventListener(
+                "dblclick",
+                () => {
+                  openGalleryLightbox(
+                    item
+                  );
+                }
+              );
+            }
+          );
+
+
+          previousLightboxButton?.addEventListener(
+            "click",
+            () => {
+              currentLightboxIndex -= 1;
+              updateGalleryLightbox();
+            }
+          );
+
+
+          nextLightboxButton?.addEventListener(
+            "click",
+            () => {
+              currentLightboxIndex += 1;
+              updateGalleryLightbox();
+            }
+          );
+
+
+          closeLightboxButton?.addEventListener(
+            "click",
+            closeGalleryLightbox
+          );
+
+
+          lightboxBackdrop?.addEventListener(
+            "click",
+            closeGalleryLightbox
+          );
+
+
+          document.addEventListener(
+            "keydown",
+            (event) => {
+              if (
+                !lightbox?.classList.contains(
+                  "is-open"
+                )
+              ) {
+                return;
+              }
+
+              if (event.key === "Escape") {
+                closeGalleryLightbox();
+              }
+
+              if (
+                event.key ===
+                "ArrowLeft"
+              ) {
+                currentLightboxIndex -= 1;
+                updateGalleryLightbox();
+              }
+
+              if (
+                event.key ===
+                "ArrowRight"
+              ) {
+                currentLightboxIndex += 1;
+                updateGalleryLightbox();
+              }
+            }
+          );
+
+
+          /* ===============================================
+             VIDEO CONTROLS
+          ================================================ */
+
+          const galleryVideos =
+            Array.from(
+              document.querySelectorAll(
+                "[data-gallery-video]"
+              )
+            );
+
+
+          function updateVideoCardInterface(
+            video
+          ) {
+            const media =
+              video.closest(
+                ".gallery-video-media"
+              );
+
+            if (!media) return;
+
+            const playButton =
+              media.querySelector(
+                "[data-gallery-video-toggle]"
+              );
+
+            const soundButton =
+              media.querySelector(
+                "[data-gallery-video-sound]"
+              );
+
+            const playIcon =
+              playButton?.querySelector(
+                "i"
+              );
+
+            const playLabel =
+              playButton?.querySelector(
+                "strong"
+              );
+
+            const isPlaying =
+              !video.paused &&
+              !video.ended;
+
+
+            playButton?.setAttribute(
+              "aria-pressed",
+              String(isPlaying)
+            );
+
+            playButton?.setAttribute(
+              "aria-label",
+              isPlaying
+                ? "Pause property film"
+                : "Play property film"
+            );
+
+
+            if (playIcon) {
+              playIcon.className =
+                isPlaying
+                  ? "fa-solid fa-pause"
+                  : "fa-solid fa-play";
+            }
+
+            if (playLabel) {
+              playLabel.textContent =
+                isPlaying
+                  ? "Pause Film"
+                  : "Play Film";
+            }
+
+
+            soundButton?.setAttribute(
+              "aria-pressed",
+              String(!video.muted)
+            );
+
+            soundButton?.setAttribute(
+              "aria-label",
+              video.muted
+                ? "Enable video sound"
+                : "Mute video sound"
+            );
+
+            const soundIcon =
+              soundButton?.querySelector(
+                "i"
+              );
+
+            if (soundIcon) {
+              soundIcon.className =
+                video.muted
+                  ? "fa-solid fa-volume-xmark"
+                  : "fa-solid fa-volume-high";
+            }
+          }
+
+
+          galleryVideos.forEach(
+            (video) => {
+              video.muted = true;
+
+              const media =
+                video.closest(
+                  ".gallery-video-media"
+                );
+
+              const playButton =
+                media?.querySelector(
+                  "[data-gallery-video-toggle]"
+                );
+
+              const soundButton =
+                media?.querySelector(
+                  "[data-gallery-video-sound]"
+                );
+
+
+              playButton?.addEventListener(
+                "click",
+                async () => {
+                  if (
+                    video.paused ||
+                    video.ended
+                  ) {
+                    galleryVideos.forEach(
+                      (otherVideo) => {
+                        if (
+                          otherVideo !== video
+                        ) {
+                          otherVideo.pause();
+
+                          updateVideoCardInterface(
+                            otherVideo
+                          );
+                        }
+                      }
+                    );
+
+                    try {
+                      await video.play();
+                    } catch (error) {
+                      return;
+                    }
+                  } else {
+                    video.pause();
+                  }
+
+                  updateVideoCardInterface(
+                    video
+                  );
+                }
+              );
+
+
+              soundButton?.addEventListener(
+                "click",
+                async () => {
+                  video.muted =
+                    !video.muted;
+
+                  if (!video.muted) {
+                    try {
+                      await video.play();
+                    } catch (error) {
+                      video.muted = true;
+                    }
+                  }
+
+                  updateVideoCardInterface(
+                    video
+                  );
+                }
+              );
+
+
+              video.addEventListener(
+                "play",
+                () => {
+                  updateVideoCardInterface(
+                    video
+                  );
+                }
+              );
+
+
+              video.addEventListener(
+                "pause",
+                () => {
+                  updateVideoCardInterface(
+                    video
+                  );
+                }
+              );
+
+
+              video.addEventListener(
+                "volumechange",
+                () => {
+                  updateVideoCardInterface(
+                    video
+                  );
+                }
+              );
+
+
+              updateVideoCardInterface(
+                video
+              );
+            }
+          );
+
+
+          /* ===============================================
+             VIDEO VISIBILITY
+          ================================================ */
+
+          if (
+            "IntersectionObserver" in
+            window
+          ) {
+            const videoObserver =
+              new IntersectionObserver(
+                (entries) => {
+                  entries.forEach(
+                    (entry) => {
+                      if (
+                        !entry.isIntersecting
+                      ) {
+                        entry.target.pause();
+
+                        updateVideoCardInterface(
+                          entry.target
+                        );
+                      }
+                    }
+                  );
+                },
+                {
+                  threshold: 0.12
+                }
+              );
+
+            galleryVideos.forEach(
+              (video) => {
+                videoObserver.observe(
+                  video
+                );
+              }
+            );
+          }
+
+        }
+      );
+
+    </script>
+
+
+    <!-- ===================================================
+         GALLERY STATEMENT AND CTA START
+         Part 6 will continue from here
+    ==================================================== -->
+        <!-- ===================================================
+         CLOSING GALLERY STATEMENT
+    ==================================================== -->
+
+    <section class="gallery-closing-statement">
+
+      <div class="section-container gallery-closing-statement-inner">
+
+        <span class="gallery-closing-number reveal-up">
+          06
+        </span>
+
+
+        <div class="gallery-closing-copy reveal-up">
+
+          <small>
+            Élvara Visual Philosophy
+          </small>
+
+
+          <blockquote>
+            The most memorable properties are not only seen.
+            They are felt through light, material, movement
+            and a strong sense of place.
+          </blockquote>
+
+        </div>
+
+
+        <div class="gallery-closing-detail reveal-up">
+
+          <span></span>
+
+          <p>
+            Architecture, interiors and experience—
+            considered as one complete story.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         PRIVATE PROPERTY CTA
+    ==================================================== -->
+
+    <section class="gallery-private-cta">
+
+      <div class="gallery-private-cta-background">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="images/property-beach-house.jpg"
+        >
+
+          <source
+            src="videos/hero-luxury-villa.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+
+        <div class="gallery-private-cta-overlay"></div>
+
+        <div class="gallery-private-cta-texture"></div>
+
+      </div>
+
+
+      <div class="section-container gallery-private-cta-content">
+
+
+        <div class="gallery-private-cta-copy reveal-up">
+
+          <div class="section-eyebrow">
+
+            <span class="section-eyebrow-line"></span>
+
+            <p>
+              Private Property Experience
+            </p>
+
+          </div>
+
+
+          <h2>
+
+            Move from visual inspiration to
+
+            <em>
+              a personal property conversation.
+            </em>
+
+          </h2>
+
+
+          <p>
+            Share the architectural style, destination,
+            property type and lifestyle experience you are
+            looking for. Élvara will help create a focused
+            and private search.
+          </p>
+
+
+          <div class="gallery-private-cta-actions">
+
+            <a
+              href="contact.html"
+              class="primary-btn magnetic-btn"
+            >
+
+              <span>
+                Begin Private Enquiry
+              </span>
+
+              <span class="button-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+
+            </a>
+
+
+            <a
+              href="properties.html"
+              class="secondary-btn"
+            >
+
+              <span>
+                Explore Properties
+              </span>
+
+              <span class="button-icon">
+                <i class="fa-solid fa-house"></i>
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-private-cta-details reveal-up">
+
+
+          <article>
+
+            <span>
+              <i class="fa-solid fa-compass-drafting"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Architecture
+              </small>
+
+              <strong>
+                Share the style and spatial experience you prefer
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Destination
+              </small>
+
+              <strong>
+                Define the location and surrounding character
+              </strong>
+
+            </div>
+
+          </article>
+
+
+          <article>
+
+            <span>
+              <i class="fa-solid fa-user-tie"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Advisory
+              </small>
+
+              <strong>
+                Receive focused and confidential guidance
+              </strong>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         VISUAL COLLECTION NAVIGATION
+    ==================================================== -->
+
+    <section class="gallery-collection-navigation section-padding">
+
+      <div class="section-container">
+
+
+        <div class="section-heading-row">
+
+          <div>
+
+            <div class="section-eyebrow reveal-up">
+
+              <span class="section-eyebrow-line"></span>
+
+              <p>
+                Continue Exploring
+              </p>
+
+            </div>
+
+
+            <h2 class="section-title reveal-up">
+
+              Discover the properties behind
+
+              <em>
+                the visual collection.
+              </em>
+
+            </h2>
+
+          </div>
+
+
+          <div class="section-heading-side reveal-up">
+
+            <p>
+              Move from architecture and interior inspiration
+              to complete property details, specifications,
+              videos and private enquiry options.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="gallery-collection-navigation-grid">
+
+
+          <!-- Villas -->
+
+          <a
+            href="properties.html?category=villa"
+            class="gallery-collection-navigation-card gallery-collection-navigation-card-large reveal-up"
+          >
+
+            <div class="gallery-collection-navigation-background">
+
+              <img
+                src="images/property-villa.jpg"
+                alt="Luxury villa collection"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-collection-navigation-overlay"></div>
+
+            </div>
+
+
+            <div class="gallery-collection-navigation-content">
+
+              <span>
+                01
+              </span>
+
+
+              <div>
+
+                <small>
+                  Private Residences
+                </small>
+
+                <h3>
+                  Explore Luxury Villas
+                </h3>
+
+                <p>
+                  Architecture, landscape and private living.
+                </p>
+
+              </div>
+
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+          </a>
+
+
+          <!-- Penthouses -->
+
+          <a
+            href="properties.html?category=penthouse"
+            class="gallery-collection-navigation-card reveal-up"
+          >
+
+            <div class="gallery-collection-navigation-background">
+
+              <img
+                src="images/property-penthouse.jpg"
+                alt="Luxury penthouse collection"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-collection-navigation-overlay"></div>
+
+            </div>
+
+
+            <div class="gallery-collection-navigation-content">
+
+              <span>
+                02
+              </span>
+
+
+              <div>
+
+                <small>
+                  Elevated Living
+                </small>
+
+                <h3>
+                  Explore Penthouses
+                </h3>
+
+              </div>
+
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+          </a>
+
+
+          <!-- Hospitality -->
+
+          <a
+            href="properties.html?category=hotel"
+            class="gallery-collection-navigation-card reveal-up"
+          >
+
+            <div class="gallery-collection-navigation-background">
+
+              <img
+                src="images/property-hotel.jpg"
+                alt="Boutique hotel collection"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-collection-navigation-overlay"></div>
+
+            </div>
+
+
+            <div class="gallery-collection-navigation-content">
+
+              <span>
+                03
+              </span>
+
+
+              <div>
+
+                <small>
+                  Hospitality
+                </small>
+
+                <h3>
+                  Explore Boutique Hotels
+                </h3>
+
+              </div>
+
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+          </a>
+
+
+          <!-- Complete Collection -->
+
+          <a
+            href="properties.html"
+            class="gallery-collection-navigation-card gallery-collection-navigation-card-wide reveal-up"
+          >
+
+            <div class="gallery-collection-navigation-background">
+
+              <img
+                src="images/property-commercial.jpg"
+                alt="Complete Élvara property portfolio"
+                loading="lazy"
+                decoding="async"
+              >
+
+              <div class="gallery-collection-navigation-overlay"></div>
+
+            </div>
+
+
+            <div class="gallery-collection-navigation-content">
+
+              <span>
+                04
+              </span>
+
+
+              <div>
+
+                <small>
+                  Complete Portfolio
+                </small>
+
+                <h3>
+                  View the Full Élvara Collection
+                </h3>
+
+                <p>
+                  Villas, penthouses, residences,
+                  coastal homes, hotels and commercial assets.
+                </p>
+
+              </div>
+
+
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         RECENTLY VIEWED PROPERTIES
+    ==================================================== -->
+
+    <section
+      class="recently-viewed-section section-padding"
+      id="recentlyViewedSection"
+    >
+
+      <div class="section-container">
+
+
+        <!-- Header -->
+
+        <div class="recently-viewed-header reveal-up">
+
+          <div>
+
+            <small>
+              Your Browsing Journey
+            </small>
+
+            <h2>
+              Recently viewed
+            </h2>
+
+          </div>
+
+
+          <div class="recently-viewed-actions">
+
+            <span
+              class="recently-viewed-counter"
+              id="recentlyViewedCount"
+              aria-label="0 recently viewed properties"
+            >
+              0
+            </span>
+
+
+            <button
+              class="recently-viewed-clear"
+              id="recentlyViewedClear"
+              type="button"
+              disabled
+              aria-disabled="true"
+            >
+              Clear History
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- Dynamic Grid -->
+
+        <div
+          class="recently-viewed-grid"
+          id="recentlyViewedGrid"
+          aria-live="polite"
+        >
+
+          <!-- Generated dynamically by js/properties.js -->
+
+        </div>
+
+
+        <!-- Empty State -->
+
+        <div
+          class="recently-viewed-empty"
+          id="recentlyViewedEmpty"
+          aria-hidden="false"
+        >
+
+          <div>
+
+            <i class="fa-regular fa-clock"></i>
+
+
+            <h3>
+              Your recently viewed properties will appear here.
+            </h3>
+
+
+            <p>
+              Explore the complete Élvara portfolio and return
+              to the properties that best match the visual and
+              architectural experience you prefer.
+            </p>
+
+
+            <a
+              href="properties.html"
+              class="text-link"
+            >
+
+              Explore Property Collection
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         GALLERY FINAL NOTE
+    ==================================================== -->
+
+    <section class="gallery-final-note">
+
+      <div class="section-container gallery-final-note-inner">
+
+
+        <span class="gallery-final-note-number reveal-up">
+          07
+        </span>
+
+
+        <div class="gallery-final-note-copy reveal-up">
+
+          <small>
+            Élvara Estates
+          </small>
+
+
+          <blockquote>
+            The visual journey is the beginning. The true
+            property experience starts when architecture,
+            place and personal priorities come together.
+          </blockquote>
+
+        </div>
+
+
+        <a
+          href="contact.html"
+          class="gallery-final-note-link reveal-up"
+        >
+
+          <span>
+            Start a Private Conversation
+          </span>
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER START
+       Part 7 will continue from here
+  ====================================================== -->
+    <!-- =====================================================
+       NEWSLETTER
+  ====================================================== -->
+
+  <section class="newsletter-section">
+
+    <div class="section-container">
+
+      <div class="newsletter-wrapper reveal-up">
+
+
+        <div class="newsletter-content">
+
+          <div class="section-eyebrow">
+
+            <span class="section-eyebrow-line"></span>
+
+            <p>
+              Private Collection Updates
+            </p>
+
+          </div>
+
+
+          <h2>
+            Receive selected property opportunities.
+          </h2>
+
+
+          <p>
+            Join the Élvara private list for curated
+            residences, architectural stories and selected
+            hospitality and investment opportunities.
+          </p>
+
+        </div>
+
+
+        <form
+          class="newsletter-form"
+          id="newsletterForm"
+          novalidate
+        >
+
+          <label
+            for="newsletterEmail"
+            class="visually-hidden"
+          >
+            Email address
+          </label>
+
+
+          <div class="newsletter-input-group">
+
+            <i class="fa-regular fa-envelope"></i>
+
+
+            <input
+              type="email"
+              id="newsletterEmail"
+              name="newsletter-email"
+              placeholder="Your email address"
+              autocomplete="email"
+              required
+            >
+
+
+            <button
+              class="newsletter-submit"
+              type="submit"
+            >
+
+              <span>
+                Join Private List
+              </span>
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+          </div>
+
+
+          <label class="newsletter-consent">
+
+            <input
+              type="checkbox"
+              id="newsletterConsent"
+              name="newsletter-consent"
+              required
+            >
+
+            <span>
+              I agree to receive selected Élvara property
+              updates and private collection announcements.
+            </span>
+
+          </label>
+
+
+          <p
+            class="newsletter-message"
+            id="newsletterMessage"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       MAIN FOOTER
+  ====================================================== -->
+
+  <footer class="main-footer">
+
+    <div class="section-container">
+
+
+      <div class="footer-top">
+
+
+        <!-- Brand Column -->
+
+        <div class="footer-brand-column">
+
+          <a
+            href="index.html"
+            class="footer-logo"
+            aria-label="Élvara Estates homepage"
+          >
+
+            <img
+              src="images/logo.png"
+              alt="Élvara Estates logo"
+            >
+
+
+            <span class="footer-brand-name">
+
+              <span>
+                ÉLVARA
+              </span>
+
+              <small>
+                ESTATES
+              </small>
+
+            </span>
+
+          </a>
+
+
+          <p class="footer-brand-description">
+            A private real-estate advisory presenting
+            distinguished residences, hospitality assets
+            and premium commercial opportunities.
+          </p>
+
+
+          <div class="footer-social-links">
+
+            <a
+              href="#"
+              aria-label="Élvara Estates on Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Élvara Estates on LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Élvara Estates on Pinterest"
+            >
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+
+            <a
+              href="#"
+              aria-label="Élvara Estates on YouTube"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Explore Column -->
+
+        <div class="footer-column">
+
+          <h3>
+            Explore
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="properties.html">
+                Properties
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html">
+                About Élvara
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html">
+                Advisory Services
+              </a>
+            </li>
+
+            <li>
+              <a href="gallery.html">
+                Gallery
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Gallery Column -->
+
+        <div class="footer-column">
+
+          <h3>
+            Gallery
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="#galleryCollection">
+                Featured Visuals
+              </a>
+            </li>
+
+            <li>
+              <a href="#galleryCollection">
+                Architecture
+              </a>
+            </li>
+
+            <li>
+              <a href="#galleryCollection">
+                Interiors
+              </a>
+            </li>
+
+            <li>
+              <a href="#galleryCollection">
+                Lifestyle
+              </a>
+            </li>
+
+            <li>
+              <a href="properties.html?category=hotel">
+                Hospitality
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Contact Column -->
+
+        <div class="footer-contact-column">
+
+          <h3>
+            Private Enquiries
+          </h3>
+
+
+          <a
+            href="mailto:private@elvaraestates.com"
+            class="footer-contact-item"
+          >
+
+            <span>
+              <i class="fa-regular fa-envelope"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Email
+              </small>
+
+              <strong>
+                private@elvaraestates.com
+              </strong>
+
+            </div>
+
+          </a>
+
+
+          <a
+            href="tel:+919876543210"
+            class="footer-contact-item"
+          >
+
+            <span>
+              <i class="fa-solid fa-phone"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Private Desk
+              </small>
+
+              <strong>
+                +91 98765 43210
+              </strong>
+
+            </div>
+
+          </a>
+
+
+          <div class="footer-contact-item">
+
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+
+            <div>
+
+              <small>
+                Advisory Presence
+              </small>
+
+              <strong>
+                India
+              </strong>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Consultation Bar -->
+
+      <div class="footer-consultation-bar">
+
+        <div>
+
+          <small>
+            Bespoke Property Advisory
+          </small>
+
+          <h3>
+            Let us curate your next address.
+          </h3>
+
+        </div>
+
+
+        <a
+          href="contact.html"
+          class="footer-consultation-button magnetic-btn"
+        >
+
+          <span>
+            Arrange a Consultation
+          </span>
+
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
+
+      <!-- Footer Bottom -->
+
+      <div class="footer-bottom">
+
+        <p>
+          ©
+          <span id="currentYear">
+            2026
+          </span>
+          Élvara Estates. All rights reserved.
+        </p>
+
+
+        <div class="footer-legal-links">
+
+          <a href="#">
+            Privacy
+          </a>
+
+          <a href="#">
+            Terms
+          </a>
+
+          <a href="#">
+            Cookies
+          </a>
+
+        </div>
+
+
+        <div class="footer-credit">
+
+          <span>
+            Crafted as a luxury real-estate demo
+          </span>
+
+          <i class="fa-solid fa-gem"></i>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =====================================================
+       FLOATING WHATSAPP CONTACT
+  ====================================================== -->
+
+  <a
+    href="https://wa.me/919876543210?text=Hello%20Élvara%20Estates%2C%20I%20would%20like%20to%20discuss%20a%20private%20property%20requirement."
+    class="floating-contact-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact Élvara Estates on WhatsApp"
+  >
+
+    <span class="floating-contact-tooltip">
+      Private WhatsApp Enquiry
+    </span>
+
+
+    <span class="floating-contact-icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </span>
+
+  </a>
+
+
+  <!-- =====================================================
+       BACK TO TOP
+  ====================================================== -->
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="Return to the top of the page"
+  >
+
+    <svg
+      viewBox="0 0 52 52"
+      aria-hidden="true"
+    >
+
+      <circle
+        cx="26"
+        cy="26"
+        r="22"
+        class="back-to-top-track"
+      ></circle>
+
+      <circle
+        cx="26"
+        cy="26"
+        r="22"
+        class="back-to-top-progress"
+        id="scrollProgressCircle"
+      ></circle>
+
+    </svg>
+
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+  </button>
+
+
+  <!-- =====================================================
+       COOKIE NOTICE
+  ====================================================== -->
+
+  <div
+    class="cookie-notice"
+    id="cookieNotice"
+    aria-hidden="true"
+  >
+
+    <div class="cookie-notice-content">
+
+      <span class="cookie-notice-icon">
+        <i class="fa-solid fa-cookie-bite"></i>
+      </span>
+
+
+      <div>
+
+        <strong>
+          A refined digital experience
+        </strong>
+
+        <p>
+          This demo uses essential browser storage for
+          favorites, property comparison, recently viewed
+          properties and preference settings.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="cookie-notice-actions">
+
+      <button
+        class="cookie-button cookie-button-secondary"
+        id="cookieDecline"
+        type="button"
+      >
+        Decline
+      </button>
+
+
+      <button
+        class="cookie-button cookie-button-primary"
+        id="cookieAccept"
+        type="button"
+      >
+        Accept
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       NOSCRIPT MESSAGE
+  ====================================================== -->
+
+  <noscript>
+
+    <div
+      style="
+        position: fixed;
+        inset: auto 16px 16px;
+        z-index: 12000;
+        padding: 16px 20px;
+        border-radius: 14px;
+        background: #101111;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+      "
+    >
+      JavaScript is required for gallery filters,
+      fullscreen previews, video controls, saved properties
+      and recently viewed listings.
+    </div>
+
+  </noscript>
+
+
+  <!-- =====================================================
+       JAVASCRIPT FILES
+       script.js must load before properties.js
+  ====================================================== -->
+
+  <script src="js/script.js"></script>
+
+  <script src="js/properties.js"></script>
+
+</body>
+
+  </html>
+      
